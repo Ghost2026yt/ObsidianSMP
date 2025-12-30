@@ -1,0 +1,1273 @@
+[14:44:55] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.18.2
+[14:44:56] [main/INFO]: Loading 53 mods:
+	- carpet 1.4.188+v251016
+	- carpet-tis-addition 1.72.2
+	   \-- conditional-mixin 0.6.4
+	- fabric-api 0.138.4+1.21.10
+	   |-- fabric-api-base 1.0.0+14b92d896f
+	   |-- fabric-api-lookup-api-v1 1.6.106+d17682156f
+	   |-- fabric-biome-api-v1 16.1.0+c2417d4f6f
+	   |-- fabric-block-api-v1 1.1.5+d17682156f
+	   |-- fabric-block-view-api-v2 1.0.34+e4fd1b926f
+	   |-- fabric-command-api-v2 2.4.0+c0ab2d5d6f
+	   |-- fabric-content-registries-v0 10.2.6+b6a242646f
+	   |-- fabric-convention-tags-v1 2.1.49+7f945d5b6f
+	   |-- fabric-convention-tags-v2 2.17.0+ff7bc77d6f
+	   |-- fabric-crash-report-info-v1 0.3.18+33df5e6e6f
+	   |-- fabric-data-attachment-api-v1 1.8.33+cd3b9e596f
+	   |-- fabric-data-generation-api-v1 23.2.27+d8b85ef16f
+	   |-- fabric-dimensions-v1 4.0.22+38b9cc196f
+	   |-- fabric-entity-events-v1 2.1.13+fde3702c6f
+	   |-- fabric-events-interaction-v0 4.0.36+5ba217126f
+	   |-- fabric-game-rule-api-v1 1.1.1+e47eaae56f
+	   |-- fabric-item-api-v1 11.5.11+9bce411b6f
+	   |-- fabric-item-group-api-v1 4.2.27+86b3ae576f
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c486f
+	   |-- fabric-lifecycle-events-v1 2.6.9+33df5e6e6f
+	   |-- fabric-loot-api-v2 3.0.67+3f89f5a56f
+	   |-- fabric-loot-api-v3 2.0.14+d17682156f
+	   |-- fabric-message-api-v1 6.1.7+3154c1c86f
+	   |-- fabric-model-loading-api-v1 6.0.5+3ffd6ef06f
+	   |-- fabric-networking-api-v1 5.1.0+b095d8db6f
+	   |-- fabric-object-builder-api-v1 21.1.28+9bce411b6f
+	   |-- fabric-particles-v1 4.2.3+a0ee59a46f
+	   |-- fabric-recipe-api-v1 8.2.0+39709ef06f
+	   |-- fabric-registry-sync-v0 6.1.42+679c8c5c6f
+	   |-- fabric-renderer-api-v1 7.2.3+9be2a36e6f
+	   |-- fabric-renderer-indigo 4.1.4+9be2a36e6f
+	   |-- fabric-rendering-fluids-v1 3.1.38+86b3ae576f
+	   |-- fabric-rendering-v1 16.2.0+bee81f016f
+	   |-- fabric-resource-conditions-api-v1 5.0.28+33df5e6e6f
+	   |-- fabric-resource-loader-v0 3.3.1+d4d4122a6f
+	   |-- fabric-resource-loader-v1 1.0.4+14959b836f
+	   |-- fabric-screen-api-v1 3.1.0+9c82a7986f
+	   |-- fabric-screen-handler-api-v1 1.3.151+d17682156f
+	   |-- fabric-serialization-api-v1 1.0.0+d857c9766f
+	   |-- fabric-sound-api-v1 1.0.45+328a75ba6f
+	   |-- fabric-tag-api-v1 1.2.13+2fa446b26f
+	   |-- fabric-transfer-api-v1 6.0.15+79ec2c126f
+	   \-- fabric-transitive-access-wideners-v1 6.5.3+41eb43436f
+	- fabricloader 0.18.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.2
+	- java 21
+	- jei 26.2.0.30
+	- lithium 0.20.1+mc1.21.10
+	- minecraft 1.21.10
+	- skinrestorer 2.4.3+1.21.9-fabric
+	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
+	- syncmatica 0.3.16
+	   \-- fabric-permissions-api-v0 0.5.0
+	- voicechat 1.21.10-2.6.10
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c4868
+	   |-- fabric-rendering-v1 16.0.1+328a75ba68
+	   \-- voicechat_api 2.6.0
+[14:44:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/ObsidianSMP/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:44:56] [main/INFO]: Compatibility level set to JAVA_17
+[14:44:56] [main/INFO]: Compatibility level set to JAVA_21
+[14:44:56] [main/INFO]: Loaded configuration file for Lithium: 165 options available, 0 override(s) found.
+[14:44:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[14:45:10] [main/INFO]: [voicechat] Compatibility version 20
+[14:45:10] [main/INFO]: [voicechat] Loading plugins
+[14:45:10] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:45:10] [main/INFO]: [voicechat] Initializing plugins
+[14:45:10] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:45:10] [TISCM Mapping/INFO]: Downloading yarn mapping from https://maven.fabricmc.net/net/fabricmc/yarn/1.21.10+build.3/yarn-1.21.10+build.3-v2.jar
+[14:45:11] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14:45:12] [TISCM Mapping/INFO]: Yarn mapping file yarn-1.21.10+build.3-v2.tiny loaded
+[14:45:14] [main/INFO]: No existing world data, creating new world
+[14:45:15] [main/INFO]: Loaded 1461 recipes
+[14:45:15] [main/INFO]: Loaded 1574 advancements
+[14:45:16] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.996 ms
+[14:45:16] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[14:45:16] [Server thread/INFO]: Loading properties
+[14:45:16] [Server thread/INFO]: Default game type: SURVIVAL
+[14:45:16] [Server thread/INFO]: Generating keypair
+[14:45:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:45:16] [Server thread/INFO]: Using epoll channel type
+[14:45:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:45:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:45:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:45:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:45:16] [Server thread/INFO]: Preparing level "world"
+[14:45:18] [Server thread/INFO]: Selecting global world spawn...
+[14:45:43] [Server thread/INFO]: Loading 0 persistent chunks...
+[14:45:43] [Server thread/INFO]: Preparing spawn area: 100%
+[14:45:43] [Server thread/INFO]: Time elapsed: 25077 ms
+[14:45:43] [Server thread/INFO]: Done (26.613s)! For help, type "help"
+[14:45:44] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14:45:44] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[14:45:44] [Server thread/INFO]: mpava (/127.124.38.3:55187) lost connection: Disconnected
+[14:46:14] [Thread-14/WARN]: Failed to fetch skin 'mojang:mpava'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:145) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:69) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:74) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:135) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:116) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[14:46:25] [Server thread/INFO]: mpava[/127.124.38.3:47311] logged in with entity id 13 at (9.5, 81.0, -3.5)
+[14:46:25] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
+[14:46:25] [Server thread/INFO]: mpava joined the game
+[14:48:38] [Server thread/INFO]: Seed: [-4938957903356017181]
+[14:49:37] [Server thread/INFO]: MrGameBlaze[/127.129.209.248:45651] logged in with entity id 947 at (8.5, 79.0, -7.5)
+[14:49:37] [Server thread/INFO]: MrGameBlaze joined the game
+[14:49:37] [Server thread/INFO]: Syncmatica client joining with local version 0.3.16 and client version 0.3.16
+[14:49:38] [Server thread/INFO]: [voicechat] Received secret request of MrGameBlaze (20)
+[14:49:38] [Server thread/INFO]: [voicechat] Sent secret to MrGameBlaze
+[14:49:40] [Server thread/INFO]: Player MrGameBlaze joined with a matching carpet client
+[14:49:56] [Server thread/INFO]: mpava has made the advancement [Stone Age]
+[14:50:01] [Server thread/INFO]: mpava has made the advancement [Getting an Upgrade]
+[14:50:17] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hola
+[14:50:20] [Server thread/INFO]: [Not Secure] <mpava> hola
+[14:50:23] [Server thread/INFO]: [MrGameBlaze: MrGameBlaze subscribed to tps.]
+[14:50:25] [Server thread/INFO]: [MrGameBlaze: MrGameBlaze subscribed to mobcaps.]
+[14:50:31] [Server thread/INFO]: Made MrGameBlaze a server operator
+[14:51:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=163, y=74, z=15} class_2338{x=162, y=73, z=15}
+[14:52:06] [Server thread/INFO]: MrGameBlaze has made the advancement [Stone Age]
+[14:52:12] [Server thread/INFO]: MrGameBlaze has made the advancement [Getting an Upgrade]
+[14:52:30] [Server thread/INFO]: mpava has made the advancement [Acquire Hardware]
+[14:54:33] [Server thread/INFO]: Darkslayershadow[/127.181.51.142:33719] logged in with entity id 2248 at (-4.5, 86.0, 2.5)
+[14:54:33] [Server thread/INFO]: Darkslayershadow joined the game
+[14:54:46] [Server thread/INFO]: [Not Secure] <Darkslayershadow> buenas
+[14:54:48] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hola
+[14:55:45] [Server thread/INFO]: [Not Secure] <Darkslayershadow> hay lag creo
+[14:55:51] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tu wifi
+[14:55:53] [Server thread/INFO]: [Not Secure] <MrGameBlaze> mira tu ping
+[14:56:00] [Server thread/INFO]: [Not Secure] <Darkslayershadow> si lo veo
+[14:56:08] [Server thread/INFO]: mpava has made the advancement [Hot Stuff]
+[14:56:09] [Server thread/INFO]: [Not Secure] <Darkslayershadow> debe ser la region
+[14:56:41] [Server thread/INFO]: Darkslayershadow has made the advancement [Stone Age]
+[14:56:48] [Server thread/INFO]: Darkslayershadow has made the advancement [Getting an Upgrade]
+[14:58:42] [Server thread/INFO]: Villager class_1646['Nitwit'/415, l='ServerLevel[world]', x=186.70, y=72.56, z=19.30] died, message: 'Nitwit was slain by MrGameBlaze'
+[14:58:49] [Server thread/INFO]: Darkslayershadow has made the advancement [Monster Hunter]
+[15:00:55] [Server thread/INFO]: Sebaj[/127.178.185.11:41139] logged in with entity id 5993 at (-9.5, 28.0, 6.5)
+[15:00:55] [Server thread/INFO]: Sebaj joined the game
+[15:01:02] [Server thread/INFO]: [Not Secure] <Sebaj> olaa
+[15:01:04] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hola
+[15:01:24] [Server thread/INFO]: MrGameBlaze has made the advancement [Acquire Hardware]
+[15:01:29] [Server thread/INFO]: Darkslayershadow has made the advancement [Acquire Hardware]
+[15:01:53] [Server thread/INFO]: Sebaj tried to swim in lava
+[15:01:57] [Server thread/INFO]: MrGameBlaze has made the advancement [What a Deal!]
+[15:02:13] [Server thread/INFO]: [Not Secure] <Sebaj> busco tim
+[15:02:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> toca deforestar xd
+[15:03:02] [Server thread/INFO]: MrGameBlaze has made the advancement [Monster Hunter]
+[15:03:58] [Server thread/INFO]: mpava has made the advancement [Monster Hunter]
+[15:04:10] [Server thread/INFO]: Darkslayershadow has made the advancement [Not Today, Thank You]
+[15:04:45] [Server thread/INFO]: [Not Secure] <Darkslayershadow> mpava que haces porque tan lejos
+[15:04:56] [Server thread/INFO]: [Not Secure] <mpava> nose xd
+[15:05:02] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd te largaste rapido
+[15:07:29] [Server thread/INFO]: Sebaj has made the advancement [Stone Age]
+[15:07:46] [Server thread/INFO]: Sebaj has made the advancement [Getting an Upgrade]
+[15:08:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2493ms or 49 ticks behind
+[15:08:36] [Server thread/INFO]: mpava has made the advancement [We Need to Go Deeper]
+[15:08:54] [Server thread/INFO]: [Not Secure] <Darkslayershadow> ya fue al nether
+[15:08:58] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[15:08:58] [Server thread/WARN]: mpava was kicked for floating too long!
+[15:08:59] [Server thread/INFO]: mpava lost connection: Flying is not enabled on this server
+[15:08:59] [Server thread/INFO]: mpava left the game
+[15:08:59] [Server thread/INFO]: [voicechat] Disconnecting client mpava
+[15:09:02] [Server thread/INFO]: [Not Secure] <MrGameBlaze> spedrun
+[15:09:04] [Thread-41/WARN]: Failed to fetch skin 'mojang:mpava'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:145) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:69) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:74) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:135) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:116) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[15:09:04] [Server thread/INFO]: mpava[/127.124.38.3:59775] logged in with entity id 9110 at (89.21636838148942, 41.00133597911215, 30.96024960219641)
+[15:09:05] [Server thread/INFO]: mpava joined the game
+[15:09:41] [Server thread/INFO]: [Not Secure] <Sebaj> quien les esta pegando a los aldeanos xd?
+[15:09:58] [Server thread/INFO]: [Not Secure] <Darkslayershadow> tan solo era necesario 2 para la granja y 3 para granja de hierro
+[15:10:14] [Server thread/INFO]: [Not Secure] <MrGameBlaze> en la noche agarramos un zombie
+[15:10:20] [Server thread/INFO]: [Not Secure] <MrGameBlaze> y lo usamos par auna granja provicional
+[15:10:40] [Server thread/INFO]: [Not Secure] <Darkslayershadow> esta prohibido xray cierto
+[15:10:47] [Server thread/INFO]: [Not Secure] <MrGameBlaze> correcto
+[15:10:59] [Server thread/INFO]: [Not Secure] <Darkslayershadow> no quites esta cama
+[15:11:16] [Server thread/INFO]: Sebaj lost connection: Disconnected
+[15:11:16] [Server thread/INFO]: Sebaj left the game
+[15:11:16] [Server thread/INFO]: [voicechat] Disconnecting client Sebaj
+[15:11:17] [Server thread/INFO]: [Not Secure] <Darkslayershadow> buscare mina
+[15:11:21] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ok
+[15:11:42] [Server thread/INFO]: mpava has made the advancement [Not Today, Thank You]
+[15:11:43] [Server thread/INFO]: Sebaj[/127.178.185.11:43265] logged in with entity id 9869 at (199.55534060922236, 57.0, 43.77977763826562)
+[15:11:43] [Server thread/INFO]: Sebaj joined the game
+[15:11:47] [Server thread/INFO]: [Not Secure] <Sebaj> 15 fps
+[15:12:59] [Server thread/INFO]: [Not Secure] <MrGameBlaze> aen esta version esta las armaduras de cobre?
+[15:13:05] [Server thread/INFO]: [Not Secure] <Sebaj> sip
+[15:13:21] [Server thread/INFO]: [Not Secure] <Darkslayershadow> si todo de cobre menos las lanzas y el nautilus
+[15:13:27] [Server thread/INFO]: [Not Secure] <MrGameBlaze> fino
+[15:13:42] [Server thread/INFO]: mpava has made the advancement [A Terrible Fortress]
+[15:14:24] [Server thread/INFO]: [Not Secure] <Sebaj> en que capa hay diamantes en esta version
+[15:15:35] [Server thread/INFO]: mpava has made the advancement [Into Fire]
+[15:17:59] [Server thread/INFO]: Sebaj has made the advancement [Acquire Hardware]
+[15:18:09] [Server thread/INFO]: Sebaj has made the advancement [Isn't It Iron Pick]
+[15:19:53] [Server thread/INFO]: Darkslayershadow lost connection: Disconnected
+[15:19:53] [Server thread/INFO]: Darkslayershadow left the game
+[15:19:53] [Server thread/INFO]: [voicechat] Disconnecting client Darkslayershadow
+[15:21:50] [Server thread/INFO]: mpava has made the advancement [Those Were the Days]
+[15:26:14] [Server thread/INFO]: mpava has made the advancement [War Pigs]
+[15:26:19] [Server thread/INFO]: mpava has made the advancement [Hidden in the Depths]
+[15:26:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya tan rapido
+[15:26:43] [Server thread/INFO]: [Not Secure] <mpava> estoy en bastion sin comida
+[15:26:47] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[15:27:03] [Server thread/INFO]: [Not Secure] <Sebaj> y yo sigo con picos de piedra
+[15:27:05] [Server thread/INFO]: [Not Secure] <Sebaj> bruh
+[15:27:08] [Server thread/INFO]: mpava has made the advancement [Ice Bucket Challenge]
+[15:27:30] [Server thread/INFO]: [Not Secure] <mpava> yo tmb tengo herramientas de piedras
+[15:27:32] [Server thread/INFO]: [Not Secure] <Sebaj> bamoooos
+[15:27:35] [Server thread/INFO]: Sebaj has made the advancement [Diamonds!]
+[15:27:41] [Server thread/INFO]: [Not Secure] <MrGameBlaze> goty
+[15:30:22] [Server thread/INFO]: [Not Secure] <mpava> tengo varios logros menos este
+[15:30:26] [Server thread/INFO]: mpava has made the advancement [Isn't It Iron Pick]
+[15:32:59] [Server thread/INFO]: [Not Secure] <Sebaj> consegui 8 diamonds good
+[15:33:01] [Server thread/INFO]: MrGameBlaze has made the advancement [Suit Up]
+[15:34:10] [Server thread/INFO]: mpava has made the advancement [Suit Up]
+[15:34:22] [Server thread/INFO]: mpava has made the advancement [Who is Cutting Onions?]
+[15:35:38] [Server thread/INFO]: Sebaj has made the advancement [Suit Up]
+[15:37:14] [Server thread/INFO]: Sebaj has made the advancement [Cover Me with Diamonds]
+[15:38:09] [Server thread/INFO]: MrGameBlaze has made the advancement [Ol' Betsy]
+[15:38:15] [Server thread/INFO]: Sebaj has made the advancement [Ol' Betsy]
+[15:38:58] [Server thread/INFO]: MrGameBlaze has made the advancement [Take Aim]
+[15:46:24] [Server thread/WARN]: Sebaj moved too quickly! 7.873399982725033,-4.082606700651638,-5.119319154356962
+[15:48:50] [Server thread/INFO]: [MrGameBlaze: Created new objective [heath]]
+[15:48:53] [Server thread/INFO]: [Not Secure] <Sebaj> ostras que arbol
+[15:49:00] [Server thread/INFO]: [MrGameBlaze: Set display slot list to show objective heath]
+[15:49:07] [Server thread/INFO]: [Not Secure] <MrGameBlaze> maderaaaaaa
+[15:49:20] [Server thread/INFO]: [Not Secure] <Sebaj> planta los brotes en 4
+[15:49:30] [Server thread/INFO]: [Not Secure] <mpava> 3 stacks de oro y los piglins solo me dan 5 perlas...
+[15:49:36] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[15:50:11] [Thread-86/WARN]: Failed to fetch skin 'mojang:TakZen'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:145) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:69) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:74) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:135) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:116) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[15:50:31] [Server thread/INFO]: TakZen[/127.31.17.199:47677] logged in with entity id 21274 at (-3.5, 93.0, -0.5)
+[15:50:31] [Server thread/INFO]: TakZen joined the game
+[15:50:58] [Server thread/INFO]: [Not Secure] <MrGameBlaze> mira quien tiene redstone?
+[15:51:17] [Server thread/INFO]: [Not Secure] <TakZen> asd
+[15:51:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-3, y=92, z=-1}
+[15:51:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-3, y=93, z=-1}
+[15:51:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-3, y=92, z=-1}
+[15:51:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-3, y=92, z=-1}
+[15:51:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-3, y=92, z=-1}
+[15:51:34] [Server thread/INFO]: [Not Secure] <TakZen> lag
+[15:51:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-3, y=92, z=-1}
+[15:51:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=7, y=87, z=11}
+[15:51:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=7, y=87, z=10}
+[15:51:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=7, y=87, z=11}
+[15:51:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=6, y=87, z=11}
+[15:51:56] [Server thread/INFO]: [Not Secure] <TakZen> pq no me deja romper bloques?=
+[15:52:01] [Server thread/INFO]: [Not Secure] <MrGameBlaze> zona del spawn
+[15:52:04] [Server thread/INFO]: [Not Secure] <MrGameBlaze> alejat
+[15:52:29] [Server thread/INFO]: [TakZen: Skin changed]
+[15:52:49] [Server thread/INFO]: [Not Secure] <TakZen> deben poner plugin de login
+[15:52:51] [Server thread/INFO]: [Not Secure] <MrGameBlaze> sebaj podes ir quemando las botas de gota de mallas?
+[15:53:31] [Server thread/INFO]: TakZen has made the advancement [Stone Age]
+[15:53:56] [Server thread/INFO]: [Not Secure] <MrGameBlaze> listo ya tradea armaura de diamante
+[15:54:10] [Server thread/INFO]: [Not Secure] <Sebaj> ia
+[15:54:16] [Server thread/INFO]: [Not Secure] <MrGameBlaze> que encatamientos tiene que ni vi
+[15:54:39] [Server thread/INFO]: [Not Secure] <Sebaj> las botas caida d epluma 4
+[15:54:42] [Server thread/INFO]: [Not Secure] <MrGameBlaze> god
+[15:54:50] [Server thread/INFO]: [Not Secure] <Sebaj> y el pantalon durabilidad 2
+[15:54:55] [Server thread/INFO]: [Not Secure] <TakZen> q tanto tiene el sv?
+[15:54:55] [Server thread/INFO]: [Not Secure] <MrGameBlaze> salio buena la armadura
+[15:54:59] [Server thread/INFO]: [Not Secure] <Sebaj> sip
+[15:55:02] [Server thread/INFO]: [Not Secure] <MrGameBlaze> estamos emepzadno
+[15:55:03] [Server thread/INFO]: Sebaj lost connection: Disconnected
+[15:55:03] [Server thread/INFO]: Sebaj left the game
+[15:55:03] [Server thread/INFO]: [voicechat] Disconnecting client Sebaj
+[15:55:20] [Server thread/INFO]: [Not Secure] <TakZen> pero ya tienen trading hall por lo que veo xd
+[15:55:31] [Server thread/INFO]: [Not Secure] <MrGameBlaze> uno rudimentario epro si, llegate
+[15:56:38] [Server thread/INFO]: [Not Secure] <TakZen> tranqui x
+[15:56:46] [Server thread/INFO]: TakZen has made the advancement [Getting an Upgrade]
+[15:57:19] [Server thread/INFO]: [MrGameBlaze: Gamerule playersSleepingPercentage is now set to: 1]
+[15:57:20] [Server thread/INFO]: Sebaj[/127.178.185.11:47383] logged in with entity id 24260 at (178.5733068586624, 73.0, 24.128307193574738)
+[15:57:20] [Server thread/INFO]: Sebaj joined the game
+[15:57:22] [Server thread/INFO]: MrGameBlaze has made the advancement [Sweet Dreams]
+[15:57:39] [Server thread/INFO]: TakZen has made the advancement [Monster Hunter]
+[15:58:11] [Server thread/INFO]: [Not Secure] <mpava> eu quitaron las bastiones tesoro?
+[15:58:16] [Server thread/INFO]: [Not Secure] <mpava> ya nunca mas las volvi a ver
+[15:58:20] [Server thread/INFO]: [Not Secure] <MrGameBlaze> no
+[15:58:35] [Server thread/INFO]: [Not Secure] <mpava> siempre me salen las bastiones estas q no me gustan
+[15:58:52] [Server thread/INFO]: [Not Secure] <TakZen> han ido al end?
+[15:58:58] [Server thread/INFO]: [Not Secure] <MrGameBlaze> estamos empezando
+[15:59:02] [Server thread/INFO]: [Not Secure] <mpava> yo ya casi
+[15:59:12] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya tenes armadura pava
+[15:59:16] [Server thread/INFO]: [Not Secure] <mpava> de oro
+[15:59:18] [Server thread/INFO]: [Not Secure] <mpava> xd
+[15:59:22] [Server thread/INFO]: [Not Secure] <MrGameBlaze> :v
+[15:59:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=22, y=75, z=-13} class_2338{x=-9, y=62, z=13}
+[15:59:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=22, y=75, z=-13} class_2338{x=-9, y=62, z=13}
+[15:59:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> te van a aniquilar en el end
+[15:59:29] [Server thread/INFO]: [Not Secure] <TakZen> asd
+[15:59:36] [Server thread/INFO]: [Not Secure] <mpava> naaa
+[16:01:11] [Server thread/INFO]: MrGameBlaze has made the advancement [Cover Me with Diamonds]
+[16:01:14] [Server thread/INFO]: [Not Secure] <TakZen> god
+[16:01:17] [Server thread/INFO]: mpava lost connection: Disconnected
+[16:01:17] [Server thread/INFO]: mpava left the game
+[16:01:17] [Server thread/INFO]: [voicechat] Disconnecting client mpava
+[16:02:07] [Server thread/INFO]: [Not Secure] <Sebaj> que vas hacer xd
+[16:03:06] [Server thread/INFO]: [Not Secure] <Sebaj> pava tenes plantillas de netherita?
+[16:03:14] [Server thread/INFO]: [Not Secure] <MrGameBlaze> se fue
+[16:03:15] [Server thread/INFO]: [Not Secure] <TakZen> se fue
+[16:03:18] [Server thread/INFO]: [Not Secure] <Sebaj> a
+[16:03:56] [Server thread/INFO]: TakZen has made the advancement [Acquire Hardware]
+[16:04:08] [Server thread/INFO]: TakZen has made the advancement [Isn't It Iron Pick]
+[16:04:16] [Server thread/INFO]: [Not Secure] <MrGameBlaze> sebaj ayudame a talar todos los arboles porfa
+[16:04:38] [Server thread/INFO]: [Not Secure] <Sebaj> ya hagamos la trading hall
+[16:05:14] [Server thread/INFO]: [Not Secure] <TakZen> q capa aparecian diamantes?
+[16:05:15] [Server thread/INFO]: [Not Secure] <MrGameBlaze> se salio uno
+[16:05:23] [Server thread/INFO]: [Not Secure] <Sebaj> se escapa
+[16:05:25] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:05:28] [Server thread/INFO]: [Not Secure] <Sebaj> como lo consiguio wtf
+[16:05:31] [Server thread/INFO]: TakZen has made the advancement [Diamonds!]
+[16:05:33] [Server thread/INFO]: [Not Secure] <TakZen> dou
+[16:05:38] [Server thread/INFO]: [Not Secure] <MrGameBlaze> capa -51
+[16:06:00] [Server thread/INFO]: [Not Secure] <TakZen> grax
+[16:06:11] [Server thread/INFO]: [Not Secure] <MrGameBlaze> dnd
+[16:06:29] [Server thread/INFO]: [Not Secure] <Sebaj> se escaparon 2
+[16:06:36] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:07:14] [Server thread/INFO]: [Not Secure] <Sebaj> como escaparon si no hay trampilla
+[16:07:21] [Server thread/INFO]: [Not Secure] <MrGameBlaze> la acabio de quitar
+[16:09:01] [Server thread/INFO]: Sebaj has made the advancement [Sweet Dreams]
+[16:10:55] [Server thread/INFO]: TakZen has made the advancement [Cover Me with Diamonds]
+[16:11:32] [Server thread/INFO]: [Not Secure] <Sebaj> BRO QUE LE HIZE A ESE ALDEO 52 PALOS UNA ESMERALDA
+[16:11:42] [Server thread/INFO]: [Not Secure] <MrGameBlaze> nose pero me cobra igual
+[16:11:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> le pegaste?
+[16:11:50] [Server thread/INFO]: [Not Secure] <Sebaj> no le pegue
+[16:11:51] [Server thread/INFO]: [Not Secure] <TakZen> pq no lo dejas descansar xd
+[16:11:59] [Server thread/INFO]: [Not Secure] <MrGameBlaze> es un esclavo no tiene derechos
+[16:12:11] [Server thread/INFO]: [Not Secure] <Sebaj> matalo
+[16:12:14] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ni loco
+[16:12:16] [Server thread/INFO]: [Not Secure] <TakZen> Tenes que durar un dia sin tradear con el y te cambia los precios a los normales
+[16:12:17] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tarde mucho en suvirlo
+[16:12:25] [Server thread/INFO]: [Not Secure] <MrGameBlaze> bueno a esperar
+[16:12:40] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tene shilo
+[16:14:51] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ahora 64
+[16:14:58] [Server thread/INFO]: [Not Secure] <Sebaj> matalo
+[16:15:01] [Server thread/INFO]: [Not Secure] <Sebaj> ahora si
+[16:15:03] [Server thread/INFO]: [Not Secure] <MrGameBlaze> no tengo repuesto xd
+[16:15:18] [Server thread/INFO]: [Not Secure] <MrGameBlaze> no enfrente de los demas
+[16:15:20] [Server thread/INFO]: [Not Secure] <Sebaj> 64 palos una esmeralda
+[16:15:23] [Server thread/INFO]: [Not Secure] <TakZen> ahogalo
+[16:15:26] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hay que alejarlo
+[16:15:34] [Server thread/INFO]: [Not Secure] <TakZen> ahogalo, es mas facil
+[16:15:39] [Server thread/INFO]: [Not Secure] <MrGameBlaze> cierto
+[16:15:39] [Server thread/INFO]: [Not Secure] <TakZen> y no te bajan reputacion
+[16:15:45] [Server thread/INFO]: [Not Secure] <MrGameBlaze> y quemarlo servira
+[16:15:53] [Server thread/INFO]: [Not Secure] <TakZen> eso si no creo xd
+[16:16:41] [Server thread/INFO]: Sebaj lost connection: Disconnected
+[16:16:41] [Server thread/INFO]: Sebaj left the game
+[16:16:41] [Server thread/INFO]: [voicechat] Disconnecting client Sebaj
+[16:17:47] [Server thread/INFO]: [Not Secure] <TakZen> asd
+[16:18:22] [Server thread/INFO]: [Not Secure] <TakZen> asd
+[16:19:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ...
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -7.988057681951801,0.03691868833235645,-6.846486170771378
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.0947096109293,0.03691502709843775,-7.104057241067672
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.18795267468073,0.03691115396696887,-7.375776992158226
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.264263499028374,0.0369074397077469,-7.659594588967693
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.320392329118391,0.036904149362435135,-7.953010342518162
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.353449835987902,0.03690144692960473,-8.253073440605519
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.360997916842393,0.0368994071692228,-8.556401784038151
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.341672987296505,0.03689803177812223,-8.859693153368497
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.294974381566647,0.0368972675165935,-9.159879418193682
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.221075045137638,0.036897024310874826,-9.454218630871178
+[16:19:53] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.12103456690727,0.03689719185236129,-9.740933699958838
+[16:21:37] [Thread-119/WARN]: Failed to fetch skin 'mojang:mpava'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:145) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:69) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:74) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:135) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:116) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[16:21:38] [Server thread/INFO]: mpava[/127.124.38.3:59141] logged in with entity id 33076 at (-143.80200538291678, 72.0, -766.3000000119209)
+[16:21:38] [Server thread/INFO]: mpava joined the game
+[16:22:34] [Server thread/INFO]: [Not Secure] <TakZen> a21
+[16:22:37] [Server thread/INFO]: Villager class_1646['Villager'/416, l='ServerLevel[world]', x=152.26, y=76.19, z=23.31] died, message: 'Villager was slain by Zombie'
+[16:23:59] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -6.966230419127328,0.0,-17.663301196705333
+[16:23:59] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -7.147888294003167,0.0,-18.01801251190451
+[16:23:59] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -7.330205800032786,0.0,-18.37254579311648
+[16:23:59] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -7.513130506202117,0.0,-18.726911624131624
+[16:23:59] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -7.696611842036077,0.0,-19.081121329676222
+[16:23:59] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -7.880607672946724,0.0,-19.435183291512587
+[16:24:00] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.065073312678635,0.0,-19.78910866675818
+[16:24:00] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.249971924303964,0.0,-20.142905686327374
+[16:24:00] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.43526697202492,0.0,-20.496583561083412
+[16:24:00] [Server thread/WARN]: Spruce Boat (vehicle of TakZen) moved too quickly! -8.620925571761745,0.0,-20.850150584528272
+[16:24:19] [Server thread/INFO]: [Not Secure] <TakZen> de q pais son?
+[16:24:25] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ven
+[16:24:32] [Server thread/INFO]: [MrGameBlaze: The difficulty has been set to Hard]
+[16:24:40] [Server thread/INFO]: [Not Secure] <TakZen> de q parte? xd
+[16:24:44] [Server thread/INFO]: [Not Secure] <MrGameBlaze> aragua
+[16:24:56] [Server thread/INFO]: [Not Secure] <TakZen> yo soy de merida
+[16:25:33] [Server thread/INFO]: [Not Secure] <MrGameBlaze> cerquita
+[16:25:38] [Server thread/INFO]: mpava was slain by Piglin Brute
+[16:25:48] [Server thread/INFO]: mpava lost connection: Disconnected
+[16:25:48] [Server thread/INFO]: mpava left the game
+[16:25:48] [Server thread/INFO]: [voicechat] Disconnecting client mpava
+[16:25:50] [Server thread/INFO]: [Not Secure] <MrGameBlaze> >:v
+[16:25:52] [Server thread/INFO]: [Not Secure] <MrGameBlaze> se arrecho
+[16:25:55] [Server thread/INFO]: [Not Secure] <TakZen> xDD
+[16:26:54] [Server thread/INFO]: [Not Secure] <TakZen> consegui una aldea en un pantano xDD
+[16:26:59] [Server thread/INFO]: [Not Secure] <MrGameBlaze> god
+[16:27:02] [Server thread/INFO]: TakZen has made the advancement [Sweet Dreams]
+[16:27:03] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tiene bruja
+[16:27:11] [Server thread/INFO]: [Not Secure] <TakZen> creo q no
+[16:27:50] [Server thread/INFO]: TakZen has made the advancement [Not Today, Thank You]
+[16:29:11] [Server thread/INFO]: [Not Secure] <MrGameBlaze> que hueva da dupear ganchos
+[16:29:22] [Server thread/INFO]: [Not Secure] <TakZen> hay dupes aca?
+[16:29:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> los de minecraft vanilla
+[16:29:36] [Server thread/INFO]: [Not Secure] <TakZen> dios que bendicion
+[16:29:44] [Server thread/INFO]: [Not Secure] <MrGameBlaze> la amyoria es dupe de arena y ganchos
+[16:29:47] [Server thread/INFO]: [Not Secure] <TakZen> Me da una pereza talar arbol por arbol
+[16:29:50] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:30:02] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya subi al flechero a nivel maximo asi que aprovechare
+[16:30:12] [Server thread/INFO]: [Not Secure] <TakZen> god
+[16:30:19] [Server thread/INFO]: [Not Secure] <TakZen> yo me vine alejado pq no me gusta aprovecharme xdd
+[16:30:41] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd , yo decia para no estar solo porqu easi casi que es igual jugar en singleplayer
+[16:30:53] [Server thread/INFO]: [Not Secure] <TakZen> Xd
+[16:31:00] [Server thread/INFO]: [Not Secure] <TakZen> Yo igual
+[16:31:11] [Server thread/INFO]: [Not Secure] <MrGameBlaze> yo tengo un survival con un amigo pero ya estamos super avanzados y como nadien se une empeze este
+[16:31:11] [Server thread/INFO]: [Not Secure] <TakZen> es muy raro que me vicie a un sv
+[16:31:22] [Server thread/INFO]: [Not Secure] <TakZen> me pasa igual
+[16:31:36] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hice en mi server una estatua gigante de jesus porque estaba aburrido
+[16:31:44] [Server thread/INFO]: [Not Secure] <TakZen> xD
+[16:31:52] [Server thread/INFO]: [Not Secure] <TakZen> yo lo hice en un anarquico una vez
+[16:32:03] [Server thread/INFO]: [Not Secure] <MrGameBlaze> te la raidearon?
+[16:32:07] [Server thread/INFO]: [Not Secure] <TakZen> Si xDDd
+[16:32:09] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:32:10] [Server thread/INFO]: [Not Secure] <TakZen> a los 5 dias
+[16:32:13] [Server thread/INFO]: Sebaj[/127.178.185.11:45543] logged in with entity id 39646 at (183.39951998721472, 75.0, 24.68065124065521)
+[16:32:13] [Server thread/INFO]: Sebaj joined the game
+[16:32:21] [Server thread/INFO]: [Not Secure] <MrGameBlaze> almenos duro
+[16:32:27] [Server thread/INFO]: [Not Secure] <Sebaj> ya mataste a ese aldeano?
+[16:32:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> no
+[16:32:33] [Server thread/INFO]: [Not Secure] <MrGameBlaze> dejalo lo usare con ganchos
+[16:32:36] [Server thread/INFO]: [Not Secure] <TakZen> Estaba haciendo este proyecto de 2b2t
+[16:32:39] [Server thread/INFO]: [Not Secure] <TakZen> el del dorado
+[16:32:41] [Server thread/INFO]: [Not Secure] <TakZen> pero con esmeraldas
+[16:32:48] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd cuanto te faltaba
+[16:32:49] [Server thread/INFO]: [Not Secure] <TakZen> ya habia llenado un biomma full
+[16:32:54] [Server thread/INFO]: Sebaj has made the advancement [What a Deal!]
+[16:33:00] [Server thread/INFO]: [Not Secure] <MrGameBlaze> raideada tambien
+[16:33:00] [Server thread/INFO]: [Not Secure] <Sebaj> ta weno
+[16:33:10] [Server thread/INFO]: [Not Secure] <TakZen> quedo parte del bioma na mas xd
+[16:33:31] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:34:41] [Server thread/INFO]: [Not Secure] <MrGameBlaze> de aqui despues de chetarnos buscaremos un bioma de planicie
+[16:34:58] [Server thread/INFO]: [Not Secure] <Sebaj> osea que no aplano?
+[16:35:00] [Server thread/INFO]: [Not Secure] <MrGameBlaze> no
+[16:35:09] [Server thread/INFO]: [Not Secure] <MrGameBlaze> nos largamos apenas estemos los dos full diamante encanado
+[16:35:15] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd\
+[16:38:11] [Server thread/INFO]: [Not Secure] <Sebaj> esto es muy lento solo por miseralbles 4 esmeraldas
+[16:38:27] [Server thread/INFO]: [Not Secure] <Sebaj> ahogalo
+[16:38:34] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd y depsues done saco esmeraldas?
+[16:38:44] [Server thread/INFO]: [Not Secure] <Sebaj> hazlos que cojan y sacas otro flechero
+[16:38:53] [Server thread/INFO]: [Not Secure] <MrGameBlaze> habra que maxearlo pero bueno
+[16:38:57] [Server thread/INFO]: [Not Secure] <Sebaj> mira
+[16:38:58] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ahogalo hay
+[16:39:02] [Server thread/INFO]: [Not Secure] <Sebaj> no duerme el hp
+[16:39:03] [Server thread/INFO]: [Not Secure] <TakZen> pq no hacen granja de aldeanos? xd
+[16:39:09] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ahorita
+[16:39:19] [Server thread/INFO]: [Not Secure] <TakZen> yo ando haciendo la mia xd
+[16:39:23] [Server thread/INFO]: [Not Secure] <TakZen> yo pensaba que uds tenian
+[16:39:29] [Server thread/INFO]: [Not Secure] <TakZen> si no hubiese ido y la hubiese hecho
+[16:40:06] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tengo una idea vamonos a otra zona que este plana y de una hacemos eso alla
+[16:40:12] [Server thread/INFO]: [Not Secure] <Sebaj> 1 stack de ganchos 1 esmeralda
+[16:40:24] [Server thread/INFO]: [Not Secure] <Sebaj> tortura al hp
+[16:40:26] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:40:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> -1888 ~ 16
+[16:40:50] [Server thread/INFO]: [Not Secure] <MrGameBlaze> 2000 bloques xd tocara caminar
+[16:41:05] [Server thread/INFO]: [Not Secure] <Sebaj> de donde sacaste esas cords xd
+[16:41:10] [Server thread/INFO]: [Not Secure] <MrGameBlaze> seedmap
+[16:41:25] [Server thread/INFO]: [Not Secure] <MrGameBlaze> vamos?
+[16:41:32] [Server thread/INFO]: [Not Secure] <Sebaj> desinstalare journey map
+[16:41:32] [Server thread/INFO]: MrGameBlaze has made the advancement [Isn't It Iron Pick]
+[16:41:36] [Server thread/INFO]: [Not Secure] <Sebaj> vamo
+[16:41:41] [Server thread/INFO]: [Not Secure] <Sebaj> los puedo matar?
+[16:41:48] [Server thread/INFO]: [Not Secure] <MrGameBlaze> me llevo las mesas
+[16:42:00] [Server thread/INFO]: Villager class_1646['Fletcher'/489, l='ServerLevel[world]', x=185.64, y=72.00, z=23.09] died, message: 'Fletcher was slain by Sebaj'
+[16:42:47] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd ya murio
+[16:43:07] [Server thread/INFO]: [Not Secure] <MrGameBlaze> llevemos lo que sirva
+[16:43:08] [Server thread/INFO]: [Not Secure] <Sebaj> esto lo dejaremos abandonado?
+[16:43:12] [Server thread/INFO]: [Not Secure] <TakZen> Si gustan vienen xdd
+[16:43:13] [Server thread/INFO]: [Not Secure] <MrGameBlaze> sisa
+[16:43:16] [Server thread/INFO]: Villager class_1646['Farmer'/414, l='ServerLevel[world]', x=185.89, y=72.00, z=19.54] died, message: 'Farmer was slain by Sebaj'
+[16:43:18] [Server thread/INFO]: Villager class_1646['Toolsmith'/505, l='ServerLevel[world]', x=185.07, y=72.00, z=20.24] died, message: 'Toolsmith was slain by Sebaj'
+[16:43:18] [Server thread/INFO]: [Not Secure] <MrGameBlaze> pasa cords a ver si es mas cerca
+[16:43:23] [Server thread/INFO]: Villager class_1646['Armorer'/305, l='ServerLevel[world]', x=185.16, y=72.00, z=22.63] died, message: 'Armorer was slain by Sebaj'
+[16:43:31] [Server thread/INFO]: [Not Secure] <TakZen> -1016 -445
+[16:43:32] [Server thread/INFO]: [Not Secure] <Sebaj> bro los aldeanos murieron magicamente
+[16:43:36] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:43:55] [Server thread/INFO]: [Not Secure] <Sebaj> AYUDAA
+[16:43:59] [Server thread/INFO]: [Not Secure] <MrGameBlaze> 800 bloques menos y en la misma direccion
+[16:44:04] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:44:16] [Server thread/INFO]: [Not Secure] <TakZen> lo unico es que es un pantano
+[16:44:23] [Server thread/INFO]: [Not Secure] <TakZen> pero no tiene tantos arboles
+[16:44:25] [Server thread/INFO]: [Not Secure] <Sebaj> hay que buscar aldea planicie
+[16:44:28] [Server thread/INFO]: [Not Secure] <TakZen> y tiene una parte de planicie xd
+[16:44:34] [Server thread/INFO]: [Not Secure] <MrGameBlaze> si quieres vamos todos a la de la planicie que esta casi en la misma direccion
+[16:44:46] [Server thread/INFO]: [Not Secure] <Sebaj> llevate los brotes de los arboles
+[16:44:53] [Server thread/INFO]: [Not Secure] <MrGameBlaze> solo 2
+[16:44:59] [Server thread/INFO]: [Not Secure] <MrGameBlaze> vamonos
+[16:45:00] [Server thread/INFO]: [Not Secure] <Sebaj> perfect
+[16:45:03] [Server thread/INFO]: [Not Secure] <Sebaj> pasa los 2 brotes
+[16:45:11] [Server thread/INFO]: [Not Secure] <Sebaj> vamo
+[16:45:14] [Server thread/INFO]: [Not Secure] <Sebaj> pera
+[16:45:23] [Server thread/INFO]: [Not Secure] <Sebaj> tenes uno d ehierro?
+[16:45:25] [Server thread/INFO]: [Not Secure] <MrGameBlaze> bueno tak hay te llegamos
+[16:45:37] [Server thread/INFO]: [Not Secure] <TakZen> pk
+[16:45:39] [Server thread/INFO]: [Not Secure] <TakZen> ok
+[16:45:44] [Server thread/INFO]: [Not Secure] <Sebaj> aqui no existio nada
+[16:45:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:46:03] [Server thread/INFO]: [Not Secure] <MrGameBlaze> bueno a correr porque si nos ven haciendo esto se pondran a quejarse
+[16:46:16] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd toda la aldea quemandose
+[16:46:24] [Server thread/INFO]: [Not Secure] <TakZen> voy a comer
+[16:46:26] [Server thread/INFO]: [Not Secure] <TakZen> en un rato entro
+[16:46:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> dale
+[16:46:29] [Server thread/INFO]: TakZen lost connection: Disconnected
+[16:46:29] [Server thread/INFO]: TakZen left the game
+[16:46:29] [Server thread/INFO]: [voicechat] Disconnecting client TakZen
+[16:46:49] [Server thread/INFO]: [Not Secure] <MrGameBlaze> llegamos a su aldea y despues vamos a la de la planicie??
+[16:46:52] [Server thread/INFO]: [Not Secure] <Sebaj> no hay que dejar pistas
+[16:47:05] [Server thread/INFO]: [Not Secure] <MrGameBlaze> oye porque no usas el /skin?
+[16:47:05] [Server thread/INFO]: [Not Secure] <Sebaj> llegemos ala planicie primer
+[16:47:16] [Server thread/INFO]: [Not Secure] <Sebaj> me gusta el stivi
+[16:47:19] [Server thread/INFO]: [Not Secure] <MrGameBlaze> 0k
+[16:47:23] [Server thread/INFO]: [Not Secure] <Sebaj> soy original
+[16:47:33] [Server thread/INFO]: [Not Secure] <MrGameBlaze> entendible
+[16:47:43] [Server thread/INFO]: [Not Secure] <MrGameBlaze> casi caigo
+[16:49:55] [Server thread/WARN]: Trying to set block entity net.minecraft.class_8174@5b3a5cf3 at position class_2338{x=-570, y=26, z=389}, but state Block{minecraft:chest}[facing=north,type=single,waterlogged=false] does not allow it
+[16:50:43] [Server thread/INFO]: [Not Secure] <MrGameBlaze> portal
+[16:51:08] [Server thread/INFO]: [Not Secure] <Sebaj> viajamos en el nether?
+[16:51:16] [Server thread/INFO]: [Not Secure] <MrGameBlaze> falta obsi o tenes?
+[16:51:21] [Server thread/INFO]: Sebaj has made the advancement [Who is Cutting Onions?]
+[16:51:23] [Server thread/INFO]: [Not Secure] <Sebaj> si tengo
+[16:51:31] [Server thread/INFO]: [Not Secure] <MrGameBlaze> dalle asi vamos mas rapido
+[16:51:44] [Server thread/INFO]: [Not Secure] <MrGameBlaze> dejame ver que cords hay que llegar en el nether
+[16:51:49] [Server thread/INFO]: Sebaj has made the advancement [Ice Bucket Challenge]
+[16:52:18] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xaero-waypoint:New Village:N:-1888:72:16:15:false:0:Internal-overworld
+[16:52:35] [Server thread/INFO]: [Not Secure] <Sebaj> toma
+[16:52:37] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya tengo las crods
+[16:52:44] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tenes para prender el portal en el nether>
+[16:52:57] [Server thread/INFO]: Sebaj has made the advancement [We Need to Go Deeper]
+[16:53:04] [Server thread/INFO]: [Not Secure] <MrGameBlaze> perame
+[16:53:08] [Server thread/INFO]: MrGameBlaze has made the advancement [We Need to Go Deeper]
+[16:53:15] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:53:18] [Server thread/INFO]: [Not Secure] <Sebaj> APARECIMOS EN LA FORTALEZA
+[16:53:20] [Server thread/INFO]: [Not Secure] <MrGameBlaze> quje suerte
+[16:53:22] [Server thread/INFO]: [Not Secure] <Sebaj> xddd
+[16:53:23] [Server thread/INFO]: [Not Secure] <MrGameBlaze> aprovechemos
+[16:53:30] [Server thread/INFO]: Sebaj has made the advancement [A Terrible Fortress]
+[16:53:31] [Server thread/INFO]: MrGameBlaze has made the advancement [A Terrible Fortress]
+[16:53:44] [Server thread/INFO]: [Not Secure] <Sebaj> te crees mejor que nosotros elrichmc?
+[16:53:54] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[16:54:47] [Server thread/INFO]: [Not Secure] <MrGameBlaze> vamos al end antes que wpeve
+[16:54:56] [Server thread/INFO]: Sebaj has made the advancement [Monster Hunter]
+[16:54:59] [Server thread/INFO]: Sebaj has made the advancement [Into Fire]
+[16:55:03] [Server thread/INFO]: [Not Secure] <MrGameBlaze> a la primera
+[16:55:05] [Server thread/INFO]: TakZen[/127.31.17.199:56821] logged in with entity id 48800 at (-1000.6053036035057, 60.0, -438.30765860429375)
+[16:55:05] [Server thread/INFO]: TakZen joined the game
+[16:55:12] [Server thread/INFO]: [Not Secure] <TakZen> buenas xd
+[16:55:17] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tan rapido
+[16:55:28] [Server thread/INFO]: [Not Secure] <TakZen> yo como rapido xd
+[16:55:35] [Server thread/INFO]: [Not Secure] <Sebaj> farmea baritas voy a explorar
+[16:55:36] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya vi
+[16:55:44] [Server thread/INFO]: MrGameBlaze has made the advancement [Into Fire]
+[16:55:56] [Server thread/INFO]: [Not Secure] <MrGameBlaze> sebas sabes que se olvido
+[16:56:04] [Server thread/INFO]: [Not Secure] <Sebaj> k?
+[16:56:12] [Server thread/INFO]: [Not Secure] <MrGameBlaze> romper el portal para hacer otrro en las otras cords
+[16:56:15] [Server thread/INFO]: Villager class_1646['Mason'/48787, l='ServerLevel[world]', x=-1011.74, y=73.00, z=-497.25] died, message: 'Mason was slain by Zombie'
+[16:56:20] [Server thread/INFO]: [Not Secure] <Sebaj> lo buscamos y ya
+[16:56:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> esta cerca igual
+[16:57:08] [Server thread/INFO]: [Not Secure] <Sebaj> ya welvo
+[16:57:09] [Server thread/INFO]: [Not Secure] <MrGameBlaze> comida tenes?
+[16:57:09] [Server thread/INFO]: Sebaj lost connection: Disconnected
+[16:57:09] [Server thread/INFO]: Sebaj left the game
+[16:57:09] [Server thread/INFO]: [voicechat] Disconnecting client Sebaj
+[16:57:22] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd me morire creo
+[16:57:25] [Server thread/INFO]: [Not Secure] <TakZen> xd
+[16:57:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> mira el tab
+[16:57:38] [Server thread/INFO]: [Not Secure] <TakZen> mitad de vida XD
+[16:58:38] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hice una mini granja de blazes xd
+[16:59:03] [Server thread/INFO]: [Not Secure] <TakZen> god
+[17:00:43] [Server thread/INFO]: [Not Secure] <MrGameBlaze> 3 bvaritas mas
+[17:01:44] [Server thread/INFO]: Sebaj[/127.178.185.11:51991] logged in with entity id 50759 at (-55.37532276521899, 67.0, 61.97705403913016)
+[17:01:44] [Server thread/INFO]: Sebaj joined the game
+[17:01:49] [Server thread/INFO]: [Not Secure] <Sebaj> ola
+[17:01:51] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hola
+[17:01:52] [Server thread/INFO]: [Not Secure] <MrGameBlaze> comida
+[17:02:04] [Server thread/INFO]: [Not Secure] <Sebaj> farmie muchas
+[17:02:10] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya vi
+[17:03:09] [Server thread/INFO]: [Not Secure] <MrGameBlaze> listo vamonos
+[17:03:26] [Server thread/INFO]: [Not Secure] <Sebaj> dame vallas
+[17:03:27] [Server thread/INFO]: [Not Secure] <Sebaj> xd
+[17:04:03] [Server thread/INFO]: [Not Secure] <MrGameBlaze> agarremos el portal
+[17:04:19] [Server thread/INFO]: [Not Secure] <Sebaj> me das la pechera de oro?
+[17:04:36] [Server thread/INFO]: TakZen lost connection: Timed out
+[17:04:36] [Server thread/INFO]: TakZen left the game
+[17:04:36] [Server thread/INFO]: [voicechat] Disconnecting client TakZen
+[17:04:50] [Server thread/INFO]: TakZen[/127.31.17.199:47631] logged in with entity id 51536 at (-1012.6999999880791, 55.0, -443.69999998807907)
+[17:04:50] [Server thread/INFO]: TakZen joined the game
+[17:07:02] [Server thread/INFO]: Sebaj was slain by Piglin
+[17:07:05] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[17:07:09] [Server thread/INFO]: [Not Secure] <TakZen> F
+[17:07:11] [Server thread/INFO]: [Not Secure] <MrGameBlaze> lelgate al portal rapido
+[17:07:13] [Server thread/INFO]: [Not Secure] <Sebaj> ptm atravesao
+[17:07:21] [Server thread/INFO]: [Not Secure] <Sebaj> pasa cords del portal
+[17:07:26] [Server thread/INFO]: [Not Secure] <MrGameBlaze> -1032 ~ 168
+[17:07:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> los matare
+[17:07:34] [Server thread/INFO]: [Not Secure] <Sebaj> vente al overworld pa guiarme con el radar
+[17:07:45] [Server thread/INFO]: [Not Secure] <MrGameBlaze> dejame recuperar tus cosa
+[17:08:13] [Server thread/INFO]: MrGameBlaze has made the advancement [Not Today, Thank You]
+[17:08:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya estoy en el overworld
+[17:09:43] [Server thread/INFO]: MrGameBlaze has made the advancement [Who is Cutting Onions?]
+[17:10:00] [Server thread/INFO]: [Not Secure] <Sebaj> entra al overworld
+[17:10:02] [Server thread/INFO]: [Not Secure] <Sebaj> una vez mas
+[17:10:07] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya recupere tus cosas
+[17:10:26] [Server thread/INFO]: [Not Secure] <Sebaj> estabamos muy lejos
+[17:10:27] [Server thread/INFO]: [Not Secure] <Sebaj> xd
+[17:10:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> si\
+[17:10:37] [Server thread/INFO]: [Not Secure] <MrGameBlaze> haz un bote
+[17:12:28] [Server thread/INFO]: [Not Secure] <Sebaj> eres la bolita azul claro o verde
+[17:12:29] [Server thread/INFO]: [Not Secure] <Sebaj> xd
+[17:12:36] [Server thread/INFO]: [Not Secure] <MrGameBlaze> azul creo
+[17:12:41] [Server thread/INFO]: [Not Secure] <MrGameBlaze> porque los veo a los dos verde
+[17:13:55] [Server thread/INFO]: [Not Secure] <MrGameBlaze> en el cofre
+[17:14:06] [Server thread/INFO]: [Not Secure] <Sebaj> y mis pants?
+[17:14:07] [Server thread/INFO]: [Not Secure] <Sebaj> xd
+[17:14:15] [Server thread/INFO]: [Not Secure] <MrGameBlaze> nose xd
+[17:14:35] [Server thread/INFO]: [Not Secure] <Sebaj> si sale una gallina soy gay
+[17:14:45] [Server thread/INFO]: [Not Secure] <MrGameBlaze> salvado
+[17:15:02] [Server thread/INFO]: [Not Secure] <MrGameBlaze> destruyes el portal
+[17:15:12] [Server thread/INFO]: [Not Secure] <Sebaj> pera
+[17:15:52] [Server thread/INFO]: [Not Secure] <Sebaj> mis pants se los ratearon
+[17:15:57] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[17:17:04] [Server thread/INFO]: [Not Secure] <MrGameBlaze> solio agarra 10
+[17:17:56] [Server thread/INFO]: MrGameBlaze has made the advancement [Ice Bucket Challenge]
+[17:18:31] [Server thread/INFO]: [Not Secure] <Sebaj> ya 10
+[17:18:54] [Server thread/INFO]: [Not Secure] <Sebaj> toma
+[17:18:56] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hay que bajar
+[17:19:06] [Server thread/INFO]: [Not Secure] <MrGameBlaze> aqui
+[17:19:09] [Server thread/INFO]: [Not Secure] <Sebaj> dame vallas
+[17:19:39] [Server thread/INFO]: [Not Secure] <Sebaj> a
+[17:19:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6676ms or 133 ticks behind
+[17:19:44] [Server thread/INFO]: [Not Secure] <MrGameBlaze> lag xd
+[17:19:49] [Server thread/INFO]: [Not Secure] <Sebaj> premio o premio
+[17:19:52] [Server thread/INFO]: [Not Secure] <MrGameBlaze> subamos
+[17:20:09] [Server thread/INFO]: [Not Secure] <TakZen> 2
+[17:21:05] [Server thread/INFO]: [Not Secure] <Sebaj> bingo
+[17:21:07] [Server thread/INFO]: [Not Secure] <MrGameBlaze> listo
+[17:21:16] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ahora a esclavisar
+[17:21:37] [Server thread/INFO]: [Not Secure] <MrGameBlaze> guarda spawn
+[17:22:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> trae mas camas
+[17:24:34] [Server thread/INFO]: [Not Secure] <Sebaj> hay lago de lava aqui abajo
+[17:24:36] [Server thread/INFO]: [Not Secure] <Sebaj> increible
+[17:24:37] [Server thread/INFO]: [Not Secure] <MrGameBlaze> god
+[17:24:48] [Server thread/INFO]: [Not Secure] <MrGameBlaze> mira ya tenemos flechero ve plantando p[ara hacer palitos
+[17:24:57] [Server thread/INFO]: [Not Secure] <Sebaj> mierda
+[17:25:03] [Server thread/INFO]: [Not Secure] <MrGameBlaze> que paso?
+[17:25:06] [Server thread/INFO]: [Not Secure] <Sebaj> deje los brotes en el portal del overworld
+[17:25:08] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[17:25:13] [Server thread/INFO]: [Not Secure] <Sebaj> toco volver
+[17:25:16] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tocara hacer con estos arboles
+[17:25:22] [Server thread/INFO]: [Not Secure] <MrGameBlaze> y desmantelar la aldea
+[17:25:23] [Server thread/INFO]: [Not Secure] <Sebaj> no funcionan
+[17:25:32] [Server thread/INFO]: [Not Secure] <Sebaj> esos arboles crecen lento y dan poco
+[17:25:34] [Server thread/INFO]: [Not Secure] <MrGameBlaze> si pero seran pequeños los arboles no queda
+[17:27:00] [Server thread/INFO]: [Not Secure] <Sebaj> puta
+[17:27:07] [Server thread/INFO]: [Not Secure] <Sebaj> ahorita me vengo a acordar que no hay portal
+[17:27:13] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[17:27:20] [Server thread/INFO]: [Not Secure] <Sebaj> ayudame
+[17:27:24] [Server thread/INFO]: [Not Secure] <MrGameBlaze> que paso?
+[17:27:26] [Server thread/INFO]: [Not Secure] <Sebaj> estoy a 1 cora
+[17:27:27] [Server thread/INFO]: [Not Secure] <Sebaj> xd
+[17:27:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> rompiste y no podes salir
+[17:27:28] [Server thread/INFO]: TakZen has made the advancement [Ice Bucket Challenge]
+[17:27:45] [Server thread/INFO]: [Not Secure] <MrGameBlaze> perame hay bajo
+[17:28:02] [Server thread/INFO]: [Not Secure] <Sebaj> estoy aca donde rompi el portal
+[17:28:35] [Server thread/INFO]: [Not Secure] <MrGameBlaze> el mechero
+[17:30:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> lelgando
+[17:30:47] [Server thread/INFO]: [Not Secure] <MrGameBlaze> donde andas?
+[17:30:53] [Server thread/INFO]: [Not Secure] <MrGameBlaze> puta
+[17:31:01] [Server thread/INFO]: [Not Secure] <Sebaj> vamo por los brotes
+[17:31:06] [Server thread/INFO]: [Not Secure] <MrGameBlaze> dale
+[17:32:21] [Server thread/INFO]: TakZen has made the advancement [We Need to Go Deeper]
+[17:33:54] [Server thread/INFO]: [Not Secure] <TakZen> xd
+[17:33:56] [Server thread/INFO]: [Not Secure] <TakZen> los veo
+[17:34:03] [Server thread/INFO]: [Not Secure] <MrGameBlaze> como asi
+[17:34:09] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd estas en el nether
+[17:34:10] [Server thread/INFO]: [Not Secure] <MrGameBlaze> good
+[17:34:12] [Server thread/INFO]: [Not Secure] <TakZen> Los vi a ambos en el nether
+[17:34:22] [Server thread/INFO]: [Not Secure] <MrGameBlaze> acompañadnos xd
+[17:34:25] [Server thread/INFO]: [Not Secure] <TakZen> tenemos los portales cerca xd
+[17:34:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> vecinos
+[17:34:35] [Server thread/INFO]: [Not Secure] <MrGameBlaze> bajalo
+[17:34:39] [Server thread/INFO]: [Not Secure] <TakZen> q van a hacer?
+[17:34:45] [Server thread/INFO]: [Not Secure] <MrGameBlaze> buscar brotes de abeto
+[17:34:48] [Server thread/INFO]: [Not Secure] <MrGameBlaze> es mejor par ala madera
+[17:34:59] [Server thread/INFO]: [Not Secure] <MrGameBlaze> dame el pico un momento
+[17:35:01] [Server thread/INFO]: [Not Secure] <TakZen> yaya
+[17:35:39] [Server thread/INFO]: [Not Secure] <MrGameBlaze> te veo en el minimapa
+[17:36:35] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya los tengo
+[17:36:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> revientalo
+[17:37:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> pareces puerco spin Tak
+[17:37:45] [Server thread/INFO]: [Not Secure] <TakZen> pq xd
+[17:37:53] [Server thread/INFO]: [Not Secure] <MrGameBlaze> por las flechas
+[17:37:57] [Server thread/INFO]: [Not Secure] <TakZen> xDD
+[17:38:40] [Server thread/INFO]: [Not Secure] <Sebaj> mas?
+[17:38:42] [Server thread/INFO]: [Not Secure] <MrGameBlaze> VAMOS
+[17:40:48] [Server thread/INFO]: MrGameBlaze has made the advancement [Stay Hydrated!]
+[17:43:22] [Server thread/INFO]: [Not Secure] <Sebaj> una flor para otra flor
+[17:43:27] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ._.
+[17:43:32] [Server thread/INFO]: [Not Secure] <MrGameBlaze> XD
+[17:43:37] [Server thread/INFO]: [Not Secure] <Sebaj> xd
+[17:43:53] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ME SIENTO MARICO AHORA
+[17:43:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1926, y=64, z=24} class_2338{x=-1926, y=62, z=24}
+[17:43:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1925, y=64, z=25} class_2338{x=-1925, y=62, z=25}
+[17:43:58] [Server thread/INFO]: [Not Secure] <TakZen> xDD
+[17:43:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1922, y=64, z=30} class_2338{x=-1921, y=62, z=30}
+[17:43:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1921, y=64, z=30} class_2338{x=-1921, y=62, z=30}
+[17:44:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1919, y=64, z=30} class_2338{x=-1918, y=62, z=30}
+[17:44:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1919, y=64, z=30} class_2338{x=-1918, y=62, z=30}
+[17:44:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-1928, y=64, z=25} class_2338{x=-1929, y=62, z=24}
+[17:45:22] [Server thread/INFO]: TakZen was slain by Iron Golem
+[17:45:25] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[17:45:27] [Server thread/INFO]: [Not Secure] <TakZen> me papeo
+[17:45:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> se ve
+[17:45:51] [Server thread/INFO]: TakZen was slain by Iron Golem
+[17:45:55] [Server thread/INFO]: [Not Secure] <MrGameBlaze> aja y eso
+[17:46:36] [Server thread/INFO]: [Not Secure] <Sebaj> cubo de leche 2 esmeraldas
+[17:46:41] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ._.
+[17:46:43] [Server thread/INFO]: [Not Secure] <MrGameBlaze> leche premiun
+[17:47:13] [Server thread/INFO]: [Not Secure] <Sebaj> pero no devuelve cubo
+[17:47:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> me falta solo un brote
+[17:51:22] [Server thread/INFO]: TakZen has made the advancement [What a Deal!]
+[17:52:52] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hay clerigo?
+[17:52:57] [Server thread/INFO]: [Not Secure] <Sebaj> habia
+[17:53:01] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tenes el stand?
+[17:53:04] [Server thread/INFO]: [Not Secure] <Sebaj> zi
+[17:53:11] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ponlo para conseguir enderpeal y redstone
+[17:53:26] [Server thread/INFO]: [Not Secure] <Sebaj> ya
+[17:54:42] [Server thread/INFO]: [Not Secure] <Sebaj> haz la granja de aldeanos tradicional
+[17:54:54] [Server thread/INFO]: [Not Secure] <MrGameBlaze> para mas aldeanos o comida?
+[17:55:16] [Server thread/INFO]: [Not Secure] <Sebaj> para la trading hall
+[17:55:24] [Server thread/INFO]: [Not Secure] <MrGameBlaze> granja de sexo
+[17:55:27] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hay la cosntruyo
+[17:55:28] [Server thread/INFO]: [Not Secure] <Sebaj> epa
+[17:55:29] [Server thread/INFO]: [Not Secure] <TakZen> q rico
+[17:55:47] [Server thread/INFO]: [Not Secure] <Sebaj> solo deja a dos aldeanos ahi adentro
+[17:57:15] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tenes cubo
+[17:57:28] [Server thread/INFO]: [Not Secure] <Sebaj> si
+[17:57:37] [Server thread/INFO]: [Not Secure] <MrGameBlaze> pasa aqui
+[17:57:54] [Server thread/INFO]: [Not Secure] <MrGameBlaze> otro
+[17:58:04] [Server thread/INFO]: Sebaj has made the advancement [Hot Stuff]
+[18:00:03] [Server thread/INFO]: [Not Secure] <MrGameBlaze> happy ghast
+[18:04:16] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya esta granja sexual activa solo queda esperar
+[18:04:39] [Server thread/INFO]: [Not Secure] <Sebaj> y donde caen los aldeanos
+[18:04:45] [Server thread/INFO]: [Not Secure] <MrGameBlaze> en ese hueco de las camas
+[18:04:49] [Server thread/INFO]: [Not Secure] <MrGameBlaze> cuando son beebs
+[18:05:02] [Server thread/INFO]: [Not Secure] <Sebaj> listo y llegan aca y que les hacemos
+[18:05:06] [Server thread/INFO]: [Not Secure] <TakZen> asd
+[18:05:11] [Server thread/INFO]: [Not Secure] <MrGameBlaze> falta un dispensador y la vuelvo maquina expendedora de aldeanos
+[18:05:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> mientras solo quedaran hay y lo sacamos cn un rail y vagoneta o algo
+[18:06:04] [Server thread/INFO]: [Not Secure] <Sebaj> tenes pedernal?
+[18:06:10] [Server thread/INFO]: [Not Secure] <MrGameBlaze> no
+[18:07:54] [Server thread/WARN]: TakZen moved too quickly! -9.768950611333594,0.8787031594607981,-2.578340034711516
+[18:10:43] [Server thread/INFO]: [Not Secure] <Sebaj> replanta pero
+[18:10:44] [Server thread/INFO]: [Not Secure] <Sebaj> xd
+[18:10:50] [Server thread/INFO]: [Not Secure] <MrGameBlaze> falta 1
+[18:11:50] [Server thread/INFO]: Sebaj has made the advancement [Take Aim]
+[18:12:50] [Server thread/INFO]: Sebaj was shot by MrGameBlaze
+[18:12:52] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[18:13:07] [Server thread/INFO]: [Not Secure] <Sebaj> xd
+[18:13:07] [Server thread/INFO]: [Not Secure] <MrGameBlaze> nada de vida tenias
+[18:13:16] [Server thread/INFO]: [Not Secure] <Sebaj> 2 coras
+[18:13:20] [Server thread/INFO]: [Not Secure] <TakZen> asd
+[18:13:24] [Server thread/INFO]: [Not Secure] <MrGameBlaze> XD
+[18:13:59] [Server thread/INFO]: [Not Secure] <Sebaj> vamo al nether?
+[18:14:05] [Server thread/INFO]: [Not Secure] <MrGameBlaze> sera, que falta enderpearl
+[18:14:13] [Server thread/INFO]: [Not Secure] <Sebaj> vamo a explorar
+[18:14:15] [Server thread/INFO]: [Not Secure] <Sebaj> al nether
+[18:14:32] [Server thread/INFO]: [Not Secure] <MrGameBlaze> deja maxear esto
+[18:14:39] [Server thread/INFO]: [Not Secure] <Sebaj> haz barcos y matamos endermans aya
+[18:14:59] [Server thread/INFO]: TakZen lost connection: Timed out
+[18:14:59] [Server thread/INFO]: TakZen left the game
+[18:14:59] [Server thread/INFO]: [voicechat] Disconnecting client TakZen
+[18:16:06] [Server thread/INFO]: [Not Secure] <Sebaj> a
+[18:16:17] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tala madera que no tengo hacha
+[18:16:22] [Server thread/INFO]: [Not Secure] <Sebaj> toma
+[18:16:58] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[18:16:58] [Server thread/INFO]: <--[HERE]
+[18:17:10] [Server thread/INFO]: Sebaj lost connection: Disconnected
+[18:17:10] [Server thread/INFO]: Sebaj left the game
+[18:17:10] [Server thread/INFO]: [voicechat] Disconnecting client Sebaj
+[18:17:14] [Server thread/INFO]: MrGameBlaze lost connection: Timed out
+[18:17:14] [Server thread/INFO]: MrGameBlaze left the game
+[18:17:14] [Server thread/INFO]: [voicechat] Disconnecting client MrGameBlaze
+[18:17:14] [Server thread/INFO]: MrGameBlaze (/127.129.209.248:54441) lost connection: Disconnected
+[18:17:16] [Server thread/INFO]: Sebaj[/127.178.185.11:38407] logged in with entity id 84600 at (-1892.2024088451224, 64.0, -1.6171909213905957)
+[18:17:16] [Server thread/INFO]: Sebaj joined the game
+[18:17:17] [Server thread/INFO]: MrGameBlaze[/127.129.209.248:52785] logged in with entity id 84772 at (-1893.8051008519196, 64.0, 10.40186391162835)
+[18:17:17] [Server thread/INFO]: MrGameBlaze joined the game
+[18:17:17] [Server thread/INFO]: [voicechat] Received secret request of MrGameBlaze (20)
+[18:17:17] [Server thread/INFO]: [voicechat] Sent secret to MrGameBlaze
+[18:17:17] [Server thread/INFO]: Syncmatica client joining with local version 0.3.16 and client version 0.3.16
+[18:17:18] [Server thread/INFO]: Player MrGameBlaze joined with a matching carpet client
+[18:18:03] [Server thread/INFO]: [Not Secure] <Sebaj> me olvide del agua
+[18:18:37] [Server thread/INFO]: [Not Secure] <Sebaj> waterdrop
+[18:19:18] [Server thread/INFO]: [Not Secure] <Sebaj> checa
+[18:19:25] [Server thread/INFO]: Sebaj fell from a high place
+[18:19:27] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[18:20:14] [Server thread/INFO]: TakZen[/127.31.17.199:33637] logged in with entity id 85624 at (-1019.7527349728134, 64.79673560066871, -454.52851206345304)
+[18:20:14] [Server thread/INFO]: TakZen joined the game
+[18:20:25] [Server thread/INFO]: [Not Secure] <TakZen> cantv de mrd
+[18:20:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[18:20:49] [Server thread/INFO]: Sebaj lost connection: Disconnected
+[18:20:49] [Server thread/INFO]: Sebaj left the game
+[18:20:49] [Server thread/INFO]: [voicechat] Disconnecting client Sebaj
+[18:20:52] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd se cago
+[18:22:51] [Server thread/INFO]: [Not Secure] <MrGameBlaze> oye
+[18:23:00] [Server thread/INFO]: [Not Secure] <TakZen> ?
+[18:23:01] [Server thread/INFO]: [Not Secure] <MrGameBlaze> no queres que agrege un mod para tradeos sin bloqueos?
+[18:23:23] [Server thread/INFO]: [Not Secure] <TakZen> Osea q los tradeos nunca se gasten??
+[18:23:27] [Server thread/INFO]: [Not Secure] <MrGameBlaze> correcto
+[18:23:43] [Server thread/INFO]: [Not Secure] <TakZen> na xd
+[18:23:52] [Server thread/INFO]: [Not Secure] <TakZen> le quita la ciencia a los trading halls
+[18:24:04] [Server thread/INFO]: [Not Secure] <MrGameBlaze> razon tenes
+[18:34:22] [Server thread/INFO]: [Not Secure] <TakZen> Me dijiste que estaba el dupe del gancho no?
+[18:34:27] [Server thread/INFO]: [Not Secure] <MrGameBlaze> si
+[18:34:42] [Server thread/INFO]: [Not Secure] <TakZen> supongo que es el normal xd
+[18:34:47] [Server thread/INFO]: [Not Secure] <MrGameBlaze> claro
+[18:36:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> listo ya tengo mejor duper
+[18:43:07] [Server thread/INFO]: [Not Secure] <MrGameBlaze> yes
+[18:43:27] [Server thread/INFO]: [Not Secure] <MrGameBlaze> mira tenes aldeanos que tradea flechas?
+[18:43:40] [Server thread/INFO]: [Not Secure] <TakZen> normales?
+[18:43:42] [Server thread/INFO]: [Not Secure] <MrGameBlaze> si
+[18:43:48] [Server thread/INFO]: [Not Secure] <TakZen> dejame ver
+[18:44:24] [Server thread/INFO]: [Not Secure] <TakZen> se
+[18:44:27] [Server thread/INFO]: [Not Secure] <TakZen> cuantas necesitas=
+[18:44:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> cuanto
+[18:44:34] [Server thread/INFO]: [Not Secure] <TakZen> 1 esmeralda 16
+[18:44:40] [Server thread/INFO]: [Not Secure] <MrGameBlaze> comprame 3 stacks
+[18:44:44] [Server thread/INFO]: [Not Secure] <MrGameBlaze> voy para alla y te los pago
+[18:44:53] [Server thread/INFO]: [Not Secure] <TakZen> dale
+[18:45:19] [Server thread/INFO]: [Not Secure] <TakZen> Tengo 2 stacks, se bloqueo el tradeo justo xd
+[18:45:22] [Server thread/INFO]: [Not Secure] <MrGameBlaze> y alguno con arcos encantados tenes y si es asi cuanto cobran y sus encantamientos
+[18:45:49] [Server thread/INFO]: [Not Secure] <TakZen> El unico que tengo es poder 1 y cuesta 7
+[18:45:55] [Server thread/INFO]: [Not Secure] <MrGameBlaze> bello me sirve
+[18:50:46] [Server thread/INFO]: TakZen lost connection: Timed out
+[18:50:46] [Server thread/INFO]: TakZen left the game
+[18:50:46] [Server thread/INFO]: [voicechat] Disconnecting client TakZen
+[18:52:30] [Server thread/INFO]: TakZen[/127.31.17.199:35693] logged in with entity id 98600 at (-1025.321384659182, 64.0, -461.3219681059165)
+[18:52:30] [Server thread/INFO]: TakZen joined the game
+[18:54:42] [Server thread/INFO]: [Not Secure] <TakZen> ya tengo tus flechas
+[18:54:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> bello
+[18:54:54] [Server thread/INFO]: [Not Secure] <MrGameBlaze> estoy terminando de chetarme algo
+[18:55:57] [Server thread/INFO]: [Not Secure] <TakZen> asd
+[18:57:26] [Server thread/INFO]: [Not Secure] <TakZen> ya vas a matar al dragon? xd
+[18:57:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> sisa
+[18:57:32] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya tengo todo
+[18:57:39] [Server thread/INFO]: [Not Secure] <TakZen> god
+[18:57:44] [Server thread/INFO]: [Not Secure] <MrGameBlaze> te busco y vamos
+[18:57:50] [Server thread/INFO]: [Not Secure] <TakZen> dale
+[19:02:55] [Server thread/INFO]: TakZen has made the advancement [Ol' Betsy]
+[19:03:00] [Server thread/INFO]: TakZen has made the advancement [Take Aim]
+[19:03:48] [Server thread/INFO]: [Not Secure] <MrGameBlaze> pasa las cords de tu portal
+[19:04:22] [Server thread/INFO]: [Not Secure] <TakZen> voy
+[19:04:49] [Server thread/INFO]: [Not Secure] <TakZen> -117 66 -56 end
+[19:04:56] [Server thread/INFO]: [Not Secure] <TakZen> digO nether
+[19:05:00] [Server thread/INFO]: [Not Secure] <MrGameBlaze> OK
+[19:06:33] [Server thread/INFO]: [Not Secure] <TakZen> xd
+[19:06:41] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[19:06:44] [Server thread/INFO]: MrGameBlaze has made the advancement [Diamonds!]
+[19:06:45] [Server thread/INFO]: [Not Secure] <TakZen> pal casco
+[19:06:48] [Server thread/INFO]: [Not Secure] <TakZen> pq me da ansiedad
+[19:06:53] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[19:07:26] [Server thread/INFO]: [Not Secure] <MrGameBlaze> no te cosa tener eso aun hay
+[19:07:34] [Server thread/INFO]: [Not Secure] <TakZen> Despues lo quito
+[19:07:40] [Server thread/INFO]: [Not Secure] <TakZen> quieres ver a un aldeano de pantano?
+[19:07:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> muestrea
+[19:07:54] [Server thread/INFO]: [Not Secure] <MrGameBlaze> hostia
+[19:08:00] [Server thread/INFO]: [Not Secure] <TakZen> xdd
+[19:08:13] [Server thread/INFO]: Villager class_1646['Nitwit'/104678, l='ServerLevel[world]', x=-1020.94, y=64.00, z=-457.23] died, message: 'Nitwit was slain by TakZen'
+[19:08:34] [Server thread/INFO]: [Not Secure] <MrGameBlaze> estas listo
+[19:08:36] [Server thread/INFO]: [Not Secure] <MrGameBlaze> oca la dragona
+[19:08:46] [Server thread/INFO]: [Not Secure] <TakZen> si ya
+[19:08:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> polvora tenes
+[19:08:48] [Server thread/INFO]: [Not Secure] <TakZen> no
+[19:08:55] [Server thread/INFO]: [Not Secure] <TakZen> xd
+[19:08:57] [Server thread/INFO]: [Not Secure] <MrGameBlaze> es para los cohetes cuando consigamos elytras
+[19:09:01] [Server thread/INFO]: [Not Secure] <TakZen> vas a buscar elitras?
+[19:09:02] [Server thread/INFO]: [Not Secure] <TakZen> hmm
+[19:09:06] [Server thread/INFO]: [Not Secure] <MrGameBlaze> de una
+[19:09:09] [Server thread/INFO]: [Not Secure] <TakZen> tengo que hacer granja de polvora entonces xdd
+[19:09:14] [Server thread/INFO]: [Not Secure] <TakZen> pero despues
+[19:09:18] [Server thread/INFO]: [Not Secure] <MrGameBlaze> mejor la de mobs y te quitas todo
+[19:09:21] [Server thread/INFO]: [Not Secure] <TakZen> igual se pueden buscar creo
+[19:10:43] [Server thread/INFO]: [Not Secure] <TakZen> traes cama?
+[19:15:10] [Server thread/INFO]: MrGameBlaze has made the advancement [Eye Spy]
+[19:15:10] [Server thread/INFO]: TakZen has made the advancement [Eye Spy]
+[19:15:17] [Server thread/INFO]: [Not Secure] <TakZen> espera
+[19:15:44] [Server thread/INFO]: [Not Secure] <TakZen> hay una trial cerca
+[19:15:49] [Server thread/INFO]: [Not Secure] <MrGameBlaze> frecam?
+[19:15:49] [Server thread/INFO]: [Not Secure] <TakZen> al lado practicamente xd
+[19:15:51] [Server thread/INFO]: [Not Secure] <TakZen> se
+[19:15:53] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[19:15:57] [Server thread/INFO]: [Not Secure] <MrGameBlaze> yo estoy en la biblioteca
+[19:16:14] [Server thread/INFO]: [Not Secure] <MrGameBlaze> listo dos plantilla de armadura
+[19:16:35] [Server thread/INFO]: [Not Secure] <TakZen> no vo el portal
+[19:16:39] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya lo vi
+[19:16:53] [Server thread/INFO]: [Not Secure] <TakZen> xD
+[19:16:57] [Server thread/INFO]: [Not Secure] <MrGameBlaze> exactos
+[19:17:12] [Server thread/INFO]: [Not Secure] <TakZen> guarda spawn
+[19:17:45] [Server thread/INFO]: [Not Secure] <MrGameBlaze> dejo las plantillas
+[19:17:57] [Server thread/INFO]: [Not Secure] <TakZen> god
+[19:18:00] [Server thread/INFO]: MrGameBlaze has made the advancement [The End?]
+[19:18:02] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[19:18:02] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
+[19:18:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2683ms or 53 ticks behind
+[19:18:03] [Server thread/INFO]: TakZen has made the advancement [The End?]
+[19:18:09] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ta bueno para un duper aqui
+[19:18:12] [Server thread/INFO]: [Not Secure] <TakZen> se
+[19:20:19] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya tumbe esa torra
+[19:20:48] [Server thread/INFO]: [Not Secure] <TakZen> quedan 2
+[19:20:52] [Server thread/INFO]: TakZen was doomed to fall by Ender Dragon
+[19:20:56] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[19:20:58] [Server thread/INFO]: [Not Secure] <TakZen> bue
+[19:22:01] [Server thread/INFO]: [Not Secure] <TakZen> queda la ultima
+[19:22:14] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya
+[19:22:19] [Server thread/INFO]: [Not Secure] <MrGameBlaze> aun falta
+[19:22:52] [Server thread/INFO]: [Not Secure] <TakZen> ya la baje
+[19:22:55] [Server thread/INFO]: [Not Secure] <MrGameBlaze> a
+[19:25:09] [Server thread/INFO]: [Not Secure] <MrGameBlaze> baja pues
+[19:25:32] [Server thread/INFO]: MrGameBlaze has made the advancement [Free the End]
+[19:25:34] [Server thread/INFO]: [Not Secure] <TakZen> gg
+[19:25:39] [Server thread/INFO]: [Not Secure] <MrGameBlaze> gg
+[19:26:00] [Server thread/INFO]: TakZen has reached the goal [The Next Generation]
+[19:26:02] [Server thread/INFO]: [Not Secure] <MrGameBlaze> pasa
+[19:26:04] [Server thread/INFO]: MrGameBlaze has reached the goal [The Next Generation]
+[19:26:07] [Server thread/INFO]: [Not Secure] <MrGameBlaze> vamos de una
+[19:26:12] [Server thread/INFO]: [Not Secure] <TakZen> ya va
+[19:26:16] [Server thread/INFO]: [Not Secure] <TakZen> deja guardo el huevo
+[19:26:26] [Server thread/INFO]: [Not Secure] <TakZen> por si morimos xd
+[19:26:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[19:26:59] [Server thread/INFO]: [Not Secure] <TakZen> xD
+[19:27:15] [Server thread/INFO]: MrGameBlaze has made the advancement [Remote Getaway]
+[19:27:18] [Server thread/INFO]: TakZen has made the advancement [Remote Getaway]
+[19:27:18] [Server thread/INFO]: [Not Secure] <MrGameBlaze> god
+[19:28:22] [Server thread/INFO]: [Not Secure] <MrGameBlaze> what bedrock?
+[19:28:27] [Server thread/INFO]: [Not Secure] <TakZen> es un mod
+[19:28:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> a
+[19:29:00] [Server thread/INFO]: [Not Secure] <MrGameBlaze> sii seguimos encontraremos 3 end city pero la ultima es la que tiene elytras
+[19:29:05] [Server thread/INFO]: [Not Secure] <TakZen> mr d XDD
+[19:29:14] [Server thread/INFO]: [Not Secure] <MrGameBlaze> a 900 blouqes esta la de elytra
+[19:29:17] [Server thread/INFO]: [Not Secure] <TakZen> ok
+[19:29:35] [Server thread/INFO]: [Not Secure] <MrGameBlaze> primera
+[19:29:51] [Server thread/INFO]: MrGameBlaze has made the advancement [The City at the End of the Game]
+[19:29:53] [Server thread/INFO]: TakZen has made the advancement [The City at the End of the Game]
+[19:31:16] [Server thread/INFO]: [Not Secure] <TakZen> ya lutee los cofres
+[19:31:21] [Server thread/INFO]: [Not Secure] <MrGameBlaze> saca shulkers
+[19:31:25] [Server thread/INFO]: TakZen has made the advancement [Suit Up]
+[19:31:26] [Server thread/WARN]: MrGameBlaze moved too quickly! -2.2459809807780857,-25.85536111074333,0.7981200726067073
+[19:32:17] [Server thread/INFO]: [Not Secure] <TakZen> tmuero
+[19:32:19] [Server thread/INFO]: TakZen was slain by Shulker
+[19:32:24] [Server thread/INFO]: [Not Secure] <TakZen> xdd
+[19:32:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> almenos tenes spawn
+[19:32:32] [Server thread/INFO]: [Not Secure] <TakZen> se
+[19:33:00] [Server thread/INFO]: [Not Secure] <TakZen> odio esa parte de las end citys
+[19:33:04] [Server thread/INFO]: [Not Secure] <TakZen> siempre me pasa lo mismo xd
+[19:34:01] [Server thread/INFO]: [Not Secure] <MrGameBlaze> agarrao tus cosas?
+[19:34:13] [Server thread/INFO]: [Not Secure] <TakZen> si
+[19:35:29] [Server thread/INFO]: [Not Secure] <TakZen> gracias
+[19:35:35] [Server thread/INFO]: [Not Secure] <MrGameBlaze> vamos a seguir
+[19:35:40] [Server thread/INFO]: [Not Secure] <TakZen> pan
+[19:36:00] [Server thread/WARN]: MrGameBlaze moved too quickly! 3.417097005533151,-27.40986351114789,2.197080326697005
+[19:36:04] [Server thread/WARN]: TakZen moved too quickly! -3.9119054174813073,-15.778221158136787,3.609397217507194
+[19:37:24] [Server thread/INFO]: [Not Secure] <TakZen> estoy invitando a unos amigos xdd
+[19:37:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[19:37:31] [Server thread/WARN]: TakZen was kicked for floating too long!
+[19:37:31] [Server thread/INFO]: TakZen lost connection: Flying is not enabled on this server
+[19:37:31] [Server thread/INFO]: TakZen left the game
+[19:37:31] [Server thread/INFO]: [voicechat] Disconnecting client TakZen
+[19:37:39] [Server thread/INFO]: TakZen[/127.31.17.199:45409] logged in with entity id 112292 at (731.9796382507091, 61.25220334025373, -1390.618942790446)
+[19:37:39] [Server thread/INFO]: TakZen joined the game
+[19:40:02] [Server thread/INFO]: [Not Secure] <MrGameBlaze> segunda
+[19:40:23] [Server thread/INFO]: [Not Secure] <MrGameBlaze> qeudatela
+[19:40:25] [Server thread/INFO]: [Not Secure] <TakZen> gracias
+[19:40:34] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ahora si a morir
+[19:43:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> que weba
+[19:45:34] [Server thread/INFO]: [Not Secure] <MrGameBlaze> conseguiste un pico de diamante?
+[19:45:38] [Server thread/INFO]: [Not Secure] <TakZen> no
+[19:46:44] [Server thread/WARN]: MrGameBlaze moved too quickly! -2.0408389751539744,-36.92711414181481,-6.373715043827588
+[19:47:15] [Server thread/INFO]: [Not Secure] <TakZen> casi muero
+[19:47:17] [Server thread/INFO]: [Not Secure] <TakZen> ya vengo
+[19:47:17] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[19:47:24] [Server thread/INFO]: [Not Secure] <TakZen> voy a pasarles las ip a los peruanos estos
+[19:47:29] [Server thread/INFO]: TakZen lost connection: Disconnected
+[19:47:29] [Server thread/INFO]: TakZen left the game
+[19:47:29] [Server thread/INFO]: [voicechat] Disconnecting client TakZen
+[19:47:30] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ok
+[19:47:49] [Server thread/INFO]: TakZen[/127.31.17.199:48841] logged in with entity id 113563 at (960.7670122166119, 60.0, -1550.3255421741244)
+[19:47:49] [Server thread/INFO]: TakZen joined the game
+[19:48:25] [Thread-359/WARN]: Failed to fetch skin 'mojang:l1lxamp'
+java.lang.IllegalStateException: not found
+	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:145) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider$1.findProfileByName(MojangSkinProvider.java:69) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3312.method_14509(class_3312.java:74) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3312.method_14515(class_3312.java:135) ~[server-intermediary.jar:?]
+	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:116) ~[skinrestorer-2.4.3+1.21.9-fabric.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$skinrestorer$fetchSkin$1$1(class_3248.java:1578) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:1577) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3248.mda4ae86$skinrestorer$lambda$waitForSkin$0$2(class_3248.java:1562) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[19:48:26] [Server thread/INFO]: l1lxamp[/127.27.183.142:42299] logged in with entity id 113638 at (6.5, 80.0, -7.5)
+[19:48:26] [Server thread/INFO]: l1lxamp joined the game
+[19:48:28] [Server thread/INFO]: [Not Secure] <l1lxamp> madre ip
+[19:48:32] [Server thread/INFO]: [Not Secure] <TakZen> silsa
+[19:48:36] [Server thread/INFO]: [Not Secure] <l1lxamp> no veo una mrd
+[19:48:38] [Server thread/INFO]: [Not Secure] <l1lxamp> :v
+[19:48:38] [Server thread/INFO]: [Not Secure] <TakZen> xD
+[19:48:50] [Server thread/INFO]: [Not Secure] <l1lxamp> pasen coord
+[19:48:51] [Server thread/INFO]: [Not Secure] <TakZen> MrGameBlaze ya la luteaste completa?
+[19:48:57] [Server thread/INFO]: [Not Secure] <MrGameBlaze> sisa
+[19:48:57] [Server thread/INFO]: [Not Secure] <TakZen> estamos en end
+[19:49:02] [Server thread/INFO]: [Not Secure] <MrGameBlaze> llegate
+[19:49:07] [Server thread/INFO]: [Not Secure] <l1lxamp> mierda
+[19:49:10] [Server thread/INFO]: [Not Secure] <l1lxamp> algo se anda quemando
+[19:49:20] [Server thread/INFO]: [Not Secure] <TakZen> una aldea
+[19:49:36] [Server thread/INFO]: [Not Secure] <l1lxamp> esta ocupada?
+[19:49:47] [Server thread/INFO]: l1lxamp has made the advancement [Suit Up]
+[19:50:32] [Server thread/INFO]: [Not Secure] <TakZen> vamos por la otra? mr
+[19:50:44] [Server thread/INFO]: [Not Secure] <MrGameBlaze> lelgate pe
+[19:50:49] [Server thread/INFO]: l1lxamp has made the advancement [Sweet Dreams]
+[19:51:01] [Server thread/INFO]: [Not Secure] <MrGameBlaze> puta sin pico
+[19:51:04] [Server thread/INFO]: [Not Secure] <TakZen> toma
+[19:51:14] [Server thread/INFO]: [Not Secure] <TakZen> tenes madera?
+[19:51:18] [Server thread/INFO]: [Not Secure] <MrGameBlaze> nel
+[19:51:21] [Server thread/INFO]: [Not Secure] <TakZen> mierda
+[19:51:38] [Server thread/WARN]: MrGameBlaze moved too quickly! 0.741247145844909,-12.940668835974634,-7.145046763668006
+[19:51:51] [Server thread/INFO]: [Not Secure] <MrGameBlaze> a por elutras
+[19:52:07] [Server thread/INFO]: [Not Secure] <TakZen> buscalas tu y yo me encargo de lutear la end
+[19:52:12] [Server thread/INFO]: [Not Secure] <MrGameBlaze> me faltan bloques xd
+[19:52:17] [Server thread/INFO]: [Not Secure] <TakZen> ya te llevo
+[19:52:31] [Server thread/INFO]: [Not Secure] <TakZen> cuabntos?
+[19:52:32] [Server thread/INFO]: [Not Secure] <MrGameBlaze> toma que tengo tu escudo xd
+[19:52:43] [Server thread/INFO]: [Not Secure] <MrGameBlaze> casi 1 stack
+[19:53:19] [Server thread/INFO]: l1lxamp has made the advancement [Stone Age]
+[19:53:29] [Server thread/INFO]: l1lxamp has made the advancement [Getting an Upgrade]
+[19:53:32] [Server thread/INFO]: [Not Secure] <TakZen> toma
+[19:53:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> tenes cubo de agua?
+[19:53:51] [Server thread/INFO]: [Not Secure] <TakZen> si
+[19:53:59] [Server thread/INFO]: [Not Secure] <TakZen> deja hago una cosa aca por si acaso
+[19:54:01] [Server thread/INFO]: [Not Secure] <TakZen> para salvarnos
+[19:54:05] [Server thread/INFO]: [Not Secure] <MrGameBlaze> sisa
+[19:54:23] [Server thread/INFO]: [Not Secure] <l1lxamp> mrd una pillager
+[19:55:20] [Server thread/INFO]: [Not Secure] <TakZen> listo
+[19:55:24] [Server thread/INFO]: [Not Secure] <TakZen> si nos morimos mala leche xd
+[19:55:25] [Server thread/INFO]: l1lxamp has made the advancement [Acquire Hardware]
+[19:55:28] [Server thread/WARN]: TakZen moved too quickly! 6.495469909797521,0.839894899145321,-7.984397154853241
+[19:55:32] [Server thread/INFO]: l1lxamp has made the advancement [Isn't It Iron Pick]
+[19:55:44] [Server thread/INFO]: [Not Secure] <MrGameBlaze> xd
+[19:56:51] [Server thread/INFO]: MrGameBlaze has made the advancement [Local Brewery]
+[19:57:08] [Server thread/INFO]: MrGameBlaze has reached the goal [Sky's the Limit]
+[19:57:21] [Server thread/INFO]: TakZen lost connection: Disconnected
+[19:57:21] [Server thread/INFO]: TakZen left the game
+[19:57:21] [Server thread/INFO]: [voicechat] Disconnecting client TakZen
+[19:57:58] [Server thread/INFO]: l1lxamp has made the advancement [Diamonds!]
+[19:58:10] [Server thread/INFO]: TakZen[/127.31.17.199:51819] logged in with entity id 116806 at (1027.699999988079, 102.20000004768372, -1896.5059142972957)
+[19:58:10] [Server thread/INFO]: TakZen joined the game
+[19:58:14] [Server thread/INFO]: [Not Secure] <TakZen> asdad
+[19:58:17] [Server thread/WARN]: MrGameBlaze moved too quickly! 2.3963878054753422,-15.472934347255489,7.6065999178943
+[19:58:21] [Server thread/WARN]: MrGameBlaze moved too quickly! 7.9638597699643014,-40.96984209924376,4.168527118072689
+[19:58:36] [Server thread/INFO]: [Not Secure] <TakZen> conseguiste?
+[19:58:40] [Server thread/INFO]: [Not Secure] <MrGameBlaze> SISA VOY POR MAS
+[19:58:45] [Server thread/INFO]: [Not Secure] <TakZen> ok
+[19:58:59] [Server thread/INFO]: [Not Secure] <MrGameBlaze> 2
+[19:59:03] [Server thread/WARN]: TakZen moved too quickly! -7.751990060389971,2.2231483084081134,-5.987804490134522
+[19:59:03] [Server thread/INFO]: [Not Secure] <TakZen> asdasd
+[19:59:08] [Server thread/WARN]: TakZen moved too quickly! 6.955110387421314,-11.969177061235001,7.612244709462402
+[19:59:23] [Server thread/WARN]: TakZen moved too quickly! 1.6348314482079331,-36.289598471924734,-0.5891979052789793
+[19:59:31] [Server thread/WARN]: TakZen was kicked for floating too long!
+[19:59:31] [Server thread/INFO]: TakZen lost connection: Flying is not enabled on this server
+[19:59:31] [Server thread/INFO]: TakZen left the game
+[19:59:31] [Server thread/INFO]: [voicechat] Disconnecting client TakZen
+[19:59:47] [Server thread/INFO]: [MrGameBlaze: stackableShulkerBoxes: true, [Change permanently?]]
+[19:59:50] [Server thread/INFO]: [MrGameBlaze: Rule stackableShulkerBoxes will now default to true]
+[20:00:40] [Server thread/INFO]: TakZen[/127.31.17.199:33853] logged in with entity id 118178 at (1036.676779602597, 61.97920669270356, -1868.6720627369052)
+[20:00:40] [Server thread/INFO]: TakZen joined the game
+[20:00:44] [Server thread/INFO]: [Not Secure] <l1lxamp> donde esta el portal?
+[20:00:55] [Server thread/INFO]: [Not Secure] <TakZen> ve pa mi aldea
+[20:00:59] [Server thread/INFO]: [Not Secure] <l1lxamp> cual es
+[20:00:59] [Server thread/INFO]: [Not Secure] <TakZen> deja te busco las cords
+[20:01:14] [Server thread/INFO]: [Not Secure] <TakZen> te las paso por wasa
+[20:01:20] [Server thread/INFO]: [Not Secure] <l1lxamp> va
+[20:02:05] [Server thread/INFO]: [Not Secure] <MrGameBlaze> 3
+[20:02:30] [Server thread/INFO]: [Not Secure] <TakZen> lito
+[20:02:37] [Server thread/INFO]: l1lxamp has made the advancement [Not Today, Thank You]
+[20:02:42] [Server thread/INFO]: l1lxamp has made the advancement [Monster Hunter]
+[20:02:47] [Server thread/INFO]: [Not Secure] <MrGameBlaze> 4
+[20:02:52] [Server thread/INFO]: [Not Secure] <TakZen> xdd
+[20:03:17] [Server thread/INFO]: [Not Secure] <l1lxamp> como era para ver las cords? xdxd
+[20:03:21] [Server thread/INFO]: [Not Secure] <TakZen> f3
+[20:03:31] [Server thread/INFO]: [Not Secure] <TakZen> Voy a acomodar algo aca de mis mods mientras
+[20:04:06] [Server thread/INFO]: [Not Secure] <l1lxamp> zzz
+[20:04:55] [Server thread/INFO]: [Not Secure] <MrGameBlaze> 5
+[20:04:59] [Server thread/INFO]: l1lxamp has made the advancement [Cover Me with Diamonds]
+[20:05:03] [Server thread/INFO]: [Not Secure] <TakZen> bue xd
+[20:05:14] [Server thread/INFO]: [Not Secure] <TakZen> ta duro el seedmap
+[20:05:22] [Server thread/INFO]: [Not Secure] <l1lxamp> solo consegui perchera
+[20:05:23] [Server thread/INFO]: [Not Secure] <MrGameBlaze> SISA
+[20:05:34] [Server thread/INFO]: [Not Secure] <MrGameBlaze> VAMOS POR LA SEXTA
+[20:06:04] [Server thread/INFO]: [Not Secure] <l1lxamp> metanle el /skin
+[20:06:16] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya esta
+[20:06:16] [Server thread/INFO]: l1lxamp fell from a high place
+[20:06:16] [Server thread/INFO]: [Not Secure] <TakZen> si tiene xdç
+[20:06:19] [Server thread/INFO]: [Not Secure] <TakZen> pero es diferente
+[20:06:19] [Server thread/INFO]: [Not Secure] <l1lxamp> :vvvv
+[20:06:34] [Server thread/INFO]: [Not Secure] <TakZen> es /skin set mojang y el nombre xd
+[20:06:43] [Server thread/INFO]: [TakZen: Skin changed]
+[20:06:55] [Server thread/INFO]: [TakZen: Skin changed]
+[20:07:18] [Server thread/INFO]: [Not Secure] <MrGameBlaze> BUENO LOCO CUANTAS ELYTRAS QUIEREN?
+[20:07:54] [Server thread/INFO]: [Not Secure] <TakZen> 1 para cada uno de nosotros esta bn xd
+[20:07:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=-14, y=19, z=7}
+[20:08:20] [Server thread/INFO]: [Not Secure] <MrGameBlaze> modestos
+[20:08:44] [Server thread/INFO]: [Not Secure] <TakZen> si llegaste a la aldea l1lxamp
+[20:08:48] [Server thread/INFO]: [Not Secure] <l1lxamp> esta mrd anda lag
+[20:08:51] [Server thread/INFO]: [Not Secure] <l1lxamp> no deja poner bloques
+[20:08:59] [Server thread/INFO]: [Not Secure] <TakZen> xd
+[20:09:05] [Server thread/INFO]: [Not Secure] <TakZen> yo voy joya
+[20:09:08] [Server thread/INFO]: [Not Secure] <TakZen> a medias
+[20:09:10] [Server thread/INFO]: [Not Secure] <l1lxamp> mi net no es
+[20:09:13] [Server thread/INFO]: [Not Secure] <l1lxamp> anda a 20 mi ping
+[20:09:17] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ESTANS EN EL SPAWN
+[20:09:18] [Server thread/INFO]: [Not Secure] <l1lxamp> segun el launcher
+[20:09:40] [Server thread/INFO]: [Not Secure] <TakZen> Si estas en el spawn no deja poner bloques xd
+[20:11:00] [Server thread/INFO]: [Not Secure] <TakZen> asd
+[20:11:29] [Server thread/INFO]: [Not Secure] <MrGameBlaze> 7 ELYTRAS SIN CONTAR LA QUE ANDO USANDO
+[20:11:33] [Server thread/INFO]: [Not Secure] <TakZen> xd
+[20:11:40] [Server thread/INFO]: [Not Secure] <l1lxamp> usan el chunkbase?
+[20:11:42] [Server thread/INFO]: [Not Secure] <TakZen> se
+[20:11:45] [Server thread/INFO]: [Not Secure] <TakZen> bueno el xd
+[20:12:45] [Server thread/INFO]: [Not Secure] <TakZen> epa MrGameBlaze y los demas no van a volver a jugar? xd
+[20:12:58] [Server thread/INFO]: [l1lxamp: Skin changed]
+[20:12:59] [Server thread/INFO]: [Not Secure] <MrGameBlaze> NOSE YO SOLOS LOS INVITE POR EL DISCORD
+[20:13:02] [Server thread/INFO]: [Not Secure] <TakZen> xd
+[20:13:04] [Server thread/INFO]: [Not Secure] <MrGameBlaze> no se si entraran
+[20:13:10] [Server thread/INFO]: [Not Secure] <l1lxamp> mielda
+[20:13:13] [Server thread/INFO]: [Not Secure] <l1lxamp> una pillager
+[20:13:18] [Server thread/INFO]: l1lxamp lost connection: Disconnected
+[20:13:18] [Server thread/INFO]: l1lxamp left the game
+[20:13:18] [Server thread/INFO]: [voicechat] Disconnecting client l1lxamp
+[20:14:04] [Server thread/INFO]: l1lxamp[/127.27.183.142:44373] logged in with entity id 128076 at (-733.6444214017769, 64.0, -379.0108538745097)
+[20:14:04] [Server thread/INFO]: l1lxamp joined the game
+[20:14:42] [Server thread/INFO]: [Not Secure] <l1lxamp> madre pillager
+[20:14:53] [Server thread/INFO]: [Not Secure] <TakZen> xdd
+[20:15:15] [Server thread/INFO]: [Not Secure] <MrGameBlaze> ya sali
+[20:15:23] [Server thread/INFO]: [Not Secure] <l1lxamp> me consegui 2 plantillas
+[20:15:26] [Server thread/INFO]: [Not Secure] <TakZen> ya estas en el overworld?
+[20:15:28] [Server thread/INFO]: [Not Secure] <MrGameBlaze> si
+[20:15:32] [Server thread/INFO]: [Not Secure] <MrGameBlaze> consegui un endgate
+[20:15:35] [Server thread/INFO]: [Not Secure] <TakZen> yo me ando regresando
+[20:15:46] [Server thread/INFO]: [Not Secure] <l1lxamp> epa
+[20:15:51] [Server thread/INFO]: [Not Secure] <l1lxamp> que pasa si libero a las hadas de aqui
+[20:15:52] [Server thread/INFO]: [Not Secure] <l1lxamp> xd
+[20:16:00] [Server thread/INFO]: [Not Secure] <TakZen> nada xd
+[20:16:06] [Server thread/INFO]: [Not Secure] <l1lxamp> no los mata?
+[20:16:21] [Server thread/INFO]: [Not Secure] <TakZen> o
+[20:16:23] [Server thread/INFO]: [Not Secure] <TakZen> n o
+[20:17:59] [Server thread/INFO]: [Not Secure] <TakZen> Te llevaste el huevo de dragon?
+[20:18:02] [Server thread/INFO]: [Not Secure] <MrGameBlaze> si
+[20:18:02] [Server thread/INFO]: [Not Secure] <l1lxamp> llegue
+[20:18:39] [Server thread/INFO]: [Not Secure] <TakZen> mi end anda como raro
+[20:18:48] [Server thread/INFO]: [Not Secure] <TakZen> tiene como unos shaders todos raros ahi xd
+[20:19:42] [Server thread/INFO]: [l1lxamp: Skin changed]
+[20:20:21] [Server thread/INFO]: [Not Secure] <TakZen> ya estoy en el overworld xd
+[20:20:46] [Server thread/INFO]: [Not Secure] <MrGameBlaze> bueno yo em retiro les dejo las shulker con todo aqui
+[20:20:52] [Server thread/WARN]: TakZen moved too quickly! -9.35493104463228,-3.0,-1.872067004670594
+[20:20:53] [Server thread/INFO]: [Not Secure] <TakZen> dale
+[20:20:59] [Server thread/INFO]: MrGameBlaze lost connection: Disconnected
+[20:20:59] [Server thread/INFO]: MrGameBlaze left the game
+[20:20:59] [Server thread/INFO]: [voicechat] Disconnecting client MrGameBlaze
+[20:21:41] [Server thread/INFO]: [Not Secure] <TakZen> jugamos bedwars?
+[20:22:13] [Server thread/INFO]: l1lxamp has reached the goal [Sky's the Limit]
+[20:22:14] [Server thread/INFO]: [Not Secure] <l1lxamp> va
+[20:22:22] [Server thread/INFO]: [Not Secure] <TakZen> deja llego a la aldea
+[20:23:55] [Server thread/INFO]: [Not Secure] <TakZen> tenemos para hacer granja de totems xd
+[20:23:59] [Server thread/INFO]: [Not Secure] <l1lxamp> se
+[20:24:06] [Server thread/INFO]: [Not Secure] <l1lxamp> me hubieras dicho y mato al del pillager
+[20:24:11] [Server thread/INFO]: [Not Secure] <l1lxamp> para quitarle la pocion esa
+[20:24:15] [Server thread/INFO]: [Not Secure] <TakZen> ya guarde cords
+[20:24:19] [Server thread/INFO]: [Not Secure] <l1lxamp> va
+[20:24:22] [Server thread/INFO]: [Not Secure] <TakZen> hay que traer mas gente a este server
+[20:24:23] [Server thread/INFO]: [Not Secure] <l1lxamp> me avisas para salir
+[20:24:39] [Server thread/INFO]: [Not Secure] <TakZen> para armar madre dinastia
+[20:24:43] [Server thread/INFO]: [Not Secure] <l1lxamp> see
+[20:25:05] [Server thread/INFO]: [Not Secure] <TakZen> ola vlo
+[20:25:13] [Server thread/INFO]: [Not Secure] <TakZen> mierda
+[20:25:16] [Server thread/INFO]: [Not Secure] <TakZen> nos regalo todo el loquito
+[20:25:18] [Server thread/INFO]: TakZen has reached the goal [Sky's the Limit]
+[20:25:24] [Server thread/INFO]: [Not Secure] <l1lxamp> y aveo
+[20:25:25] [Server thread/INFO]: [Not Secure] <l1lxamp> ya veo
+[20:25:40] [Server thread/INFO]: [Not Secure] <l1lxamp> el estara en la otra aldea?
+[20:25:45] [Server thread/INFO]: [Not Secure] <TakZen> a lo mejor deja el sv xd
+[20:25:46] [Server thread/INFO]: [Not Secure] <TakZen> si
+[20:25:52] [Server thread/INFO]: [Not Secure] <l1lxamp> pork
+[20:25:54] [Server thread/INFO]: [Not Secure] <l1lxamp> xd
+[20:25:57] [Server thread/INFO]: [Not Secure] <TakZen> despues le digo que me pase control pa prender esta mrd
+[20:25:58] [Server thread/INFO]: [Not Secure] <TakZen> no se xd
+[20:26:08] [Server thread/INFO]: [Not Secure] <TakZen> por algo nos regalo todo
+[20:26:29] [Server thread/INFO]: [Not Secure] <l1lxamp> xd
+[20:26:30] [Server thread/INFO]: l1lxamp lost connection: Disconnected
+[20:26:30] [Server thread/INFO]: l1lxamp left the game
+[20:26:30] [Server thread/INFO]: [voicechat] Disconnecting client l1lxamp
+[20:26:57] [Server thread/INFO]: TakZen lost connection: Timed out
+[20:26:57] [Server thread/INFO]: TakZen left the game
+[20:26:57] [Server thread/INFO]: [voicechat] Disconnecting client TakZen
+[20:27:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[20:47:58] [Server thread/INFO]: Unknown or incomplete command. See below for error
+[20:47:58] [Server thread/INFO]: <--[HERE]
+[20:48:02] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[20:48:06] [Server thread/INFO]: Stopping the server
+[20:48:07] [Server thread/INFO]: Stopping server
+[20:48:07] [Server thread/INFO]: Saving players
+[20:48:07] [Server thread/INFO]: Saving worlds
+[20:48:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:48:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:48:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:48:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:48:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:48:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:48:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
